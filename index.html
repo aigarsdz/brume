@@ -1,0 +1,46 @@
+---
+layout: default
+title: Brume
+---
+
+<section id="posts">
+  
+  {% for post in paginator.posts %}
+  <article>
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <div class="meta clearfix">
+      <div class="date"><span class="date-icon"></span><date>{{ post.date | date: "%d/%m/%Y"}}</date></div>
+      <div class="author"><span class="author-icon"></span>
+        {% if post.author %}{{ post.author }}
+        {% else %} {{ site.author }}
+        {% endif %}
+      </div>
+      <div class="category"><span class="category-icon"></span>
+        {% if post.category %}{{ post.category }}
+        {% else %} Uncategorized
+        {% endif %}
+      </div>
+    </div>
+    {{ post.content | split: '<!--more-->' | first }}
+    {% if post.content contains '<!--more-->' %}
+      <p class="read-more"><a href="{{ post.url }}">&middot;&middot;&middot;&middot;</a></p>
+    {% endif %}
+  </article>
+  {% endfor %}
+  
+  <!-- Pagination links -->
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a href="/" class="previous">Previous</a>
+    {% else %}
+      <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
+    {% endif %}
+    {% endif %}
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="/page{{ paginator.next_page }}" class="next">Next</a>
+    {% endif %}
+  </div>
+
+</section>

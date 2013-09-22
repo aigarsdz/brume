@@ -1,0 +1,28 @@
+name: Brume
+markdown: redcarpet
+pygments: false
+paginate: 10
+permalink: /:title
+
+disqus: 
+
+twitter: http://twitter.com/aigarsdz
+github: http://github.com/aigarsdz
+rss_link: /feed.xml
+email: dzerviniks.aigars@outlook.com
+
+url: 
+author:
+description:
+copyright_years: 
+
+links:
+  - url: /
+    name: Home
+    title: Brume
+  - url: /about
+    name: About
+    title: About
+  - url: /archive
+    name: Archive
+    title: Archive

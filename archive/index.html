@@ -1,0 +1,29 @@
+---
+layout: page
+title: Archive
+---
+
+<section class="post-archive">
+  {% for post in site.posts %}
+    {% unless post.category == 'domas' %}
+
+    {% unless post.next %}
+      {% unless forloop.first %}</ul>{% endunless %}
+      <h2 class="post-year">{{ post.date | date: '%Y' }}</h2>
+      <ul class="posts-by-year">
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+        {% unless forloop.first %}</ul>{% endunless %}
+        <h2 class="post-year">{{ post.date | date: '%Y' }}</h2>
+        <ul class="posts-by-year">
+      {% endif %}
+    {% endunless %}
+
+    <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      <span class="published">({{ post.date | date: "%e.%m" }}</span>)</li>
+
+    {% endunless %}
+  {% endfor %}
+</section>
