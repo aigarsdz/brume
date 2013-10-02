@@ -6,7 +6,7 @@
           content="{{ site.description }}" {% else %}
           content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" {% endif %}>
     <meta name="author" content="{{ site.author }}">
-    
+
     <title>
       {% if page.title == site.name %}
       {{ site.name }}
@@ -14,21 +14,21 @@
       {{ page.title }} &middot; {{ site.name }}
       {% endif %}
     </title>
-    
-    <link rel="icon" type="image/png" href="/img/favicon.ico" />
-    
+
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+
     <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/syntax.css">
     <link rel="stylesheet" href="/css/main.css">
-    
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&subset=latin-ext' 
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&subset=latin-ext'
           rel='stylesheet' type='text/css'>
-          
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="/js/jquery.fitvids.min.js"></script>
   </head>
   <body>
-    <div class="wraper">  
+    <div class="wraper">
       <header class="top">
         <div class="clearfix">
           <h1><a href="/">{{ site.name }}</a></h1>
@@ -46,16 +46,16 @@
           {% endfor %}
         </nav>
       </header>
-      
+
       {{ content }}
-      
+
       <footer>
         {% if site.copyright_years %}
         <p>Copyright &copy; {{ site.copyright_years }}, by {{ site.author }}.</p>
         {% endif %}
       </footer>
     </div>
-    
+
     <script>
       $(document).ready(function(){
         $("article").fitVids();
