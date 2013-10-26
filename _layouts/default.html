@@ -17,7 +17,7 @@
 
     <link rel="shortcut icon" href="/img/favicon.ico" />
 
-    <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/font-awesome-4.0.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/syntax.css">
     <link rel="stylesheet" href="/css/main.css">
 
@@ -34,10 +34,10 @@
         <div class="clearfix">
           <h1><a href="/">{{ site.name }}</a></h1>
           <div class="socio">
-            {% if site.twitter %}<a href="{{ site.twitter }}" class="icon-twitter icon-large"></a>{% endif %}
-            {% if site.github %}<a href="{{ site.github }}" class="icon-github icon-large"></a>{% endif %}
-            {% if site.rss_link %}<a href="{{ site.rss_link }}" class="icon-rss icon-large"></a>{% endif %}
-            {% if site.email %}<a href="mailot:{{ site.email }}" class="icon-envelope icon-large"></a>{% endif %}
+            {% if site.twitter %}<a href="{{ site.twitter }}"><i class="fa fa-twitter fa-2x"></i></a>{% endif %}
+            {% if site.github %}<a href="{{ site.github }}"><i class="fa fa-github fa-2x"></i></a>{% endif %}
+            {% if site.rss_link %}<a href="{{ site.rss_link }}"><i class="fa fa-rss fa-2x"></i></a>{% endif %}
+            {% if site.email %}<a href="mailot:{{ site.email }}"><i class="fa fa-envelope fa-2x"></i></a>{% endif %}
           </div>
         </div>
         <nav class="top clearfix">
