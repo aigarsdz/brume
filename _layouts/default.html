@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- meta information -->
     <meta charset="utf-8">
     <meta name="description" {% if page.title == site.name %}
           content="{{ site.description }}" {% else %}
           content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" {% endif %}>
     <meta name="author" content="{{ site.author }}">
 
+    <!-- title -->
     <title>
       {% if page.title == site.name %}
       {{ site.name }}
@@ -15,16 +17,22 @@
       {% endif %}
     </title>
 
-    <link rel="shortcut icon" href="/img/favicon.ico" />
+    <!-- icons -->
+    <link rel="shortcut icon" href="/public/images/favicon.ico" />
 
-    <link rel="stylesheet" href="/font-awesome-4.0.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/syntax.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="/public/font-awesome-4.0.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/public/css/syntax.css">
+    <link rel="stylesheet" href="/public/css/responsive.gs.12col.css">
+    <link rel="stylesheet" href="/public/css/main.css">
 
+    <!-- Google fonts -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&subset=latin-ext">
 
+    <!-- feed links -->
     <link rel="alternate" href="{{ site.rss_link }}" type="application/rss+xml" title="{{ site.name }}">
 
+    <!-- scripts -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="/js/jquery.fitvids.min.js"></script>
   </head>
