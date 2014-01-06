@@ -1,20 +1,14 @@
 name: Brume
 markdown: redcarpet
-pygments: false
+pygments: true
 paginate: 10
 permalink: /:title
 
-disqus:
+redcarpet:
+  extensions: [strikethrough]
 
-twitter: http://twitter.com/aigarsdz
-github: http://github.com/aigarsdz
-rss_link: /feed.xml
-email: dzerviniks.aigars@outlook.com
-
-url:
 author:
 description:
-copyright_years:
 
 links:
   - url: /
