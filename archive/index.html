@@ -22,7 +22,7 @@ title: Archive
     {% endunless %}
 
     <li><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-      <span class="published">({{ post.date | date: "%e.%m" }}</span>)</li>
+      <span class="archive-date">[{{ post.date | date: "%e.%m" }}]</span></li>
 
     {% endunless %}
   {% endfor %}

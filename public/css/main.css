@@ -17,6 +17,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, ul, ol,
 .fluid-width-video-wrapper,
+.highlight,
 blockquote,
 img {
   margin-bottom: 15px;
@@ -131,17 +132,19 @@ a.current-page {
 }
 
 .single-post {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .single-post .published {
   color: #999;
-  font-size: 1rem;
+  font-size: .9rem;
 }
 
 .listing {
   margin-bottom: 5px;
 }
+
+.archive-date { font-size: .9rem; }
 
 .meta {
   font-size: .8rem;
@@ -188,4 +191,8 @@ footer {
   article {
     margin-bottom: 20px;
   }
+}
+
+@media ( max-width : 405px ) {
+  .top nav a { padding-right: 10px; }
 }
