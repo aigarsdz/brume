@@ -87,7 +87,8 @@ a.current-page {
 /* ====== Main Content
 ============================================================================= */
 
-#posts {
+#posts,
+.single-post {
   margin-bottom: 100px;
 }
 
