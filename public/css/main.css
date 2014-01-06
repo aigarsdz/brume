@@ -1,10 +1,12 @@
+/* ====== General Styles
+============================================================================= */
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  color: #333;
+  color: #555;
   background-color: #f5f5f5;
   font-family: 'Source Sans Pro', sans-serif;
   line-height: 1.5;
@@ -28,19 +30,22 @@ img {
 }
 
 a {
-  color: #777;
+  color: #999;
   text-decoration: none;
 }
 
-  a:hover,
-  a:active {
-    color: #222;
-  }
+a:hover,
+a:active {
+  color: #222;
+}
 
 .container {
   max-width: 1024px;
-  padding: 0 20px;
+  padding: 0 40px;
 }
+
+/* ====== Header
+============================================================================= */
 
 #blog-logo {
   display: inline-block;
@@ -56,30 +61,43 @@ a {
   height: 100px;
 }
 
-  .top nav {
-    border-bottom: 1px solid #999;
-    height: 35px;
-    margin-top: 65px;
-  }
+.top nav {
+  border-bottom: 1px solid #999;
+  height: 35px;
+  margin-top: 65px;
+}
 
-    .top nav a {
-      color: #999;
-      display: inline-block;
-      padding: 0 50px 6px 0;
-      margin-right: 5px;
-      text-transform: uppercase;
-    }
-      .top nav a:hover {
-        color: #333;
-        border-bottom: 5px solid #333;
-      }
+.top nav a {
+  color: #999;
+  display: inline-block;
+  padding: 0 50px 6px 0;
+  margin-right: 5px;
+  text-transform: uppercase;
+}
+
+.top nav a:hover {
+  color: #333;
+  border-bottom: 5px solid #333;
+}
 
 a.current-page {
   border-bottom: 5px solid #999;
 }
 
+/* ====== Main Content
+============================================================================= */
+
 #posts {
   margin-bottom: 100px;
+}
+
+.single-post {
+  font-size: 1.2rem;
+}
+
+.single-post .published {
+  color: #999;
+  font-size: 1rem;
 }
 
 .listing {
@@ -92,6 +110,8 @@ a.current-page {
   padding-top: 3px;
 }
 
+/* ====== Footer
+============================================================================= */
 .pagination {
   text-align: center;
   margin-bottom: 30px;
@@ -106,6 +126,9 @@ footer {
   font-size: .75rem;
   text-align: center;
 }
+
+/* ====== Responsive Shit
+============================================================================= */
 
 @media ( max-width : 768px ) {
   #logo,
