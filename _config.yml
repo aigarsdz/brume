@@ -10,6 +10,8 @@ redcarpet:
 author:
 description:
 
+url:
+
 links:
   - url: /
     name: Home
