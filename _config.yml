@@ -4,22 +4,22 @@ pygments: false
 paginate: 10
 permalink: /:title
 
-disqus: 
+disqus:
 
 twitter: http://twitter.com/aigarsdz
 github: http://github.com/aigarsdz
 rss_link: /feed.xml
 email: dzerviniks.aigars@outlook.com
 
-url: 
+url:
 author:
 description:
-copyright_years: 
+copyright_years:
 
 links:
   - url: /
     name: Home
-    title: Brume
+    title: Home
   - url: /about
     name: About
     title: About

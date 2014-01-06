@@ -9,13 +9,7 @@
     <meta name="author" content="{{ site.author }}">
 
     <!-- title -->
-    <title>
-      {% if page.title == site.name %}
-      {{ site.name }}
-      {% else %}
-      {{ page.title }} &middot; {{ site.name }}
-      {% endif %}
-    </title>
+    <title>{{ page.title }} &middot; {{ site.name }}</title>
 
     <!-- icons -->
     <link rel="shortcut icon" href="/public/images/favicon.ico" />
@@ -26,36 +20,33 @@
     <link rel="stylesheet" href="/public/css/main.css">
 
     <!-- Google fonts -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700&subset=latin-ext">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&subset=latin-ext' rel='stylesheet' type='text/css'>
+
+    <!-- font Awesome -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <!-- feed links -->
     <link rel="alternate" href="{{ site.rss_link }}" type="application/rss+xml" title="{{ site.name }}">
-
-    <!-- scripts -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="/js/jquery.fitvids.min.js"></script>
   </head>
   <body>
-    <div class="container row">
-      <header class="top">
-          <h1><a href="/">{{ site.name }}</a></h1>
-        <nav class="top clearfix">
-          {% for link in site.links %}
-          <a href="{{ link.url }}" title="{{ link.title }}"
-             {% if page.title == link.title %}class="current-page"{% endif %}>{{ link.name }}</a>
-          {% endfor %}
-        </nav>
+    <div class="container">
+      <header class="top row gutters">
+        <div class="col span_2" id="logo">
+          <a href="/" id="blog-logo" title="{{ site.title }}"></a>
+        </div>
+        {% include navigation.html %}
       </header>
 
       {{ content }}
 
       <footer>
-        {% if site.copyright_years %}
-        <p>Copyright &copy; {{ site.copyright_years }}, by {{ site.author }}.</p>
-        {% endif %}
+        <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
       </footer>
     </div>
 
+    <!-- scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/public/js/jquery.fitvids.min.js"></script>
     <script>
       $(document).ready(function(){
         $("article").fitVids();
