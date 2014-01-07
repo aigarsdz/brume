@@ -28,37 +28,11 @@ ul, ol {
 }
 
 blockquote {
-  -webkit-transition: all, 0.3s;
-     -moz-transition: all, 0.3s;
-      -ms-transition: all, 0.3s;
-       -o-transition: all, 0.3s;
-          transition: all, 0.3s;
-
-  color: #f5f5f5;
-  position: relative;
-  overflow: hidden;
-  display: block;
-  padding: 15px 60px;
-  background-color: #555;
-}
-
-blockquote:hover:before { color: #b8cec7; }
-blockquote:before { left: -3px; }
-blockquote:after { right: -2px; }
-blockquote:before,
-blockquote:after {
-  content: "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^";
-  font-size: 24px;
-  overflow: hidden;
-  position: absolute;
-  top: 0px;
-  bottom: 0px;
-  line-height: 0.4em;
-  word-break: break-all;
-  color: #f5f5f5;
-  display: block;
-  width: 7px !important;
-  white-space: normal;
+  padding: 10px 40px;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  font-style: italic;
+  font-size: 1rem;
 }
 
 img {
