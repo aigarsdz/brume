@@ -85,6 +85,7 @@ a:active {
 
 /* ====== Header
 ============================================================================= */
+#logo { text-align: right; }
 
 #blog-logo {
   display: inline-block;
@@ -125,7 +126,6 @@ a.current-page {
 
 /* ====== Main Content
 ============================================================================= */
-
 #posts,
 .single-post {
   margin-bottom: 100px;
@@ -155,7 +155,7 @@ a.current-page {
 /* ====== Footer
 ============================================================================= */
 .pagination {
-  text-align: center;
+  text-align: right;
   margin-bottom: 30px;
 }
 
@@ -171,11 +171,11 @@ footer {
 
 /* ====== Responsive Shit
 ============================================================================= */
-
 @media ( max-width : 768px ) {
   #logo,
   #posts,
-  .meta {
+  .meta,
+  .pagination {
     text-align: center;
   }
 
