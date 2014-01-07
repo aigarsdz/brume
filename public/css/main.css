@@ -126,6 +126,11 @@ a.current-page {
 
 /* ====== Main Content
 ============================================================================= */
+#posts {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
 #posts,
 .single-post {
   margin-bottom: 100px;
