@@ -157,6 +157,16 @@ a.current-page {
   padding-top: 3px;
 }
 
+.not-found {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.not-found h1 {
+  font-size: 8rem;
+}
+
 /* ====== Footer
 ============================================================================= */
 .pagination {
