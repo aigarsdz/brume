@@ -4,10 +4,10 @@ I am not a designer so I cannot impress you with breathtaking Jekyll themes, but
 
 This is how the "Home" page looks like.
 
-![Home](https://github.com/aigarsdz/brume/tree/master/public/images/screenshot_1.png)
+![Home](http://i43.tinypic.com/x1kh3b.png)
 
 And this is a single post.
 
-![Home](https://github.com/aigarsdz/brume/tree/master/public/images/screenshot_2.png)
+![Home](http://i39.tinypic.com/w8xcon.png)
 
 Express your thoughts about it on Twitter [@aigarsdz](http://twitter.com/aigarsdz), and help me make brume better!
