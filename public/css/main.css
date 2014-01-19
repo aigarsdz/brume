@@ -56,6 +56,23 @@ a:active {
   color: #222;
 }
 
+code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: .8rem;
+}
+
+.highlight code {
+  font-size: .7rem;
+}
+
+p code {
+  padding: 0px 5px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
 .container {
   max-width: 1024px;
   padding: 0 40px;
