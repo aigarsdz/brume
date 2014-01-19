@@ -14,11 +14,8 @@ url:
 
 links:
   - url: /
-    name: Home
     title: Home
   - url: /about
-    name: About
     title: About
   - url: /archive
-    name: Archive
     title: Archive
