@@ -12,6 +12,6 @@ And this is a single post.
 
 ## Usage
 
-To use brume, download the ZIP file and extract it's contents. Open up *_config.yml* file and fill in values for author (your name), description (blog description) and url (blog url). You should also edit the About page content in *about/index.md*. If you want to remove or add additional links in the navigation menu, it can be done using the *_config.yml* file as well.
+To use brume, download the ZIP file and extract it's contents. Open up *_config.yml* file and fill in values for author (your name), description (blog description) and url (blog url). You should also edit the About page content in *about/index.md*. If you want to remove or add additional links to the navigation menu, it can be done using the *_data/links.yml* file.
 
 Express your thoughts about it on Twitter [@aigarsdz](http://twitter.com/aigarsdz), and help me make brume better!
