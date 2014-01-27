@@ -1,13 +1,9 @@
-name: Brume
 markdown: redcarpet
 pygments: true
 paginate: 10
 permalink: /:title
 
+url:
+
 redcarpet:
   extensions: [strikethrough]
-
-author:
-description:
-
-url:
