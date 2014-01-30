@@ -12,6 +12,11 @@ And this is a single post.
 
 ## Usage
 
-To use brume, download the ZIP file and extract it's contents. Open up *_data/brume.yml.yml* file and fill in values for site name, author (your name) and description (blog description). You should also edit the About page content in *about/index.md*. If you want to remove or add additional links to the navigation menu, it can be done using the *_data/links.yml* file. The site URL can be set in *_config.yml* file.
+- Download the ZIP file and extract it's contents.
+- Open *_config.yml* file and enter your site's URL and add additional configuration or update the existing one if needed.
+- Open *_data/brume.yml* file and fill in values for site name (site title), author (your name) and description (blog description). This file contains all the custom information about your page. You can access it using `site.data.brume` object.
+- Open *about/index.md* file and add information about you or your site. You can delete this file and directory if not needed.
+- Open *_data/links.yml* and add additional links or update the existing ones that you want to be displayed in the navigation menu.
+- Generate your site and be happy!
 
 Express your thoughts about it on Twitter [@aigarsdz](http://twitter.com/aigarsdz), and help me make brume better!
