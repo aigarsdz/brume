@@ -1,3 +1,9 @@
+/* ====== Variables
+============================================================================= */
+$site-background-color: #f5f5f5;
+$contrast-color: #333;
+$accent-color: #bf4e4c;
+
 /* ====== General Styles
 ============================================================================= */
 * {
@@ -9,7 +15,8 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: $site-background-color;
+  border-top: 5px solid $contrast-color;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   line-height: 1.5;
@@ -46,12 +53,12 @@ img {
 }
 
 a {
-  color: #999;
+  color: $accent-color;
   text-decoration: none;
 
   &:hover,
   &:active {
-    color: #222;
+    color: darken($accent-color, 25%);
   }
 }
 
@@ -79,46 +86,51 @@ p code {
 }
 
 .container {
-  max-width: 1024px;
-  padding: 0 40px;
+  max-width: 750px;
+  padding: 0 20px;
 }
 
 /* ====== Header
 ============================================================================= */
-#logo { text-align: right; }
+#logo-container { text-align: center; }
 
-#blog-logo {
+#actual-logo {
   display: inline-block;
-  height: 100px;
-  width: 100px;
-  background: url(/public/images/logo.png) no-repeat;
-  background-size: 100px 100px;
+  height: 110px;
+  width: 110px;
+  background: url(/public/images/logo.png) left center no-repeat;
+  background-size: 90px 90px;
 }
 
 .top {
   margin-bottom: 40px;
-  margin-top: 50px;
-  height: 100px;
+  height: 110px;
 
   nav {
-    border-bottom: 1px solid #999;
-    height: 35px;
-    margin-top: 65px;
+    height: 110px;
 
     a {
-      color: #999;
+      color: $contrast-color;
       display: inline-block;
-      padding: 0 50px 6px 0;
-      margin-right: 5px;
+      padding: 66px 20px 25px;
+      margin-right: 10px;
+      margin-top: -5px;
       text-transform: uppercase;
+      border-radius: 0 0 5px 5px;
+      border-bottom: 1px solid lighten($contrast-color, 10%);
+
+      &:hover,
+      &.current-page {
+        color: $site-background-color;
+        border-bottom: none;
+      }
 
       &:hover {
-        color: #333;
-        border-bottom: 5px solid #333;
+        background-color: lighten($contrast-color, 10%);
       }
 
       &.current-page {
-        border-bottom: 5px solid #999;
+        background-color: $contrast-color;
       }
     }
   }
@@ -147,12 +159,19 @@ p code {
   margin-bottom: 5px;
 }
 
-.archive-date { font-size: .9rem; }
-
 .meta {
   font-size: .8rem;
   text-align: right;
   padding-top: 3px;
+}
+
+.year-bundle {
+  border-top: 1px solid lighten($contrast-color, 50%);
+  padding-top: 10px;
+}
+
+.archive-date {
+  text-align: right;
 }
 
 .not-found {

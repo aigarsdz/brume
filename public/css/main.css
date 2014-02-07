@@ -1,3 +1,5 @@
+/* ====== Variables
+============================================================================= */
 /* ====== General Styles
 ============================================================================= */
 * {
@@ -7,7 +9,8 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #f5f5f5;
+  background-color: whitesmoke;
+  border-top: 5px solid #333333;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   line-height: 1.5;
@@ -38,10 +41,10 @@ img {
   outline: none; }
 
 a {
-  color: #999;
+  color: #bf4e4c;
   text-decoration: none; }
   a:hover, a:active {
-    color: #222; }
+    color: #672625; }
 
 code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
@@ -63,40 +66,42 @@ p code {
   white-space: nowrap; }
 
 .container {
-  max-width: 1024px;
-  padding: 0 40px; }
+  max-width: 750px;
+  padding: 0 20px; }
 
 /* ====== Header
 ============================================================================= */
-#logo {
-  text-align: right; }
+#logo-container {
+  text-align: center; }
 
-#blog-logo {
+#actual-logo {
   display: inline-block;
-  height: 100px;
-  width: 100px;
-  background: url(/public/images/logo.png) no-repeat;
-  background-size: 100px 100px; }
+  height: 110px;
+  width: 110px;
+  background: url(/public/images/logo.png) left center no-repeat;
+  background-size: 90px 90px; }
 
 .top {
   margin-bottom: 40px;
-  margin-top: 50px;
-  height: 100px; }
+  height: 110px; }
   .top nav {
-    border-bottom: 1px solid #999;
-    height: 35px;
-    margin-top: 65px; }
+    height: 110px; }
     .top nav a {
-      color: #999;
+      color: #333333;
       display: inline-block;
-      padding: 0 50px 6px 0;
-      margin-right: 5px;
-      text-transform: uppercase; }
+      padding: 66px 20px 25px;
+      margin-right: 10px;
+      margin-top: -5px;
+      text-transform: uppercase;
+      border-radius: 0 0 5px 5px;
+      border-bottom: 1px solid #4d4d4d; }
+      .top nav a:hover, .top nav a.current-page {
+        color: whitesmoke;
+        border-bottom: none; }
       .top nav a:hover {
-        color: #333;
-        border-bottom: 5px solid #333; }
+        background-color: #4d4d4d; }
       .top nav a.current-page {
-        border-bottom: 5px solid #999; }
+        background-color: #333333; }
 
 /* ====== Main Content
 ============================================================================= */
@@ -115,13 +120,17 @@ p code {
 .listing {
   margin-bottom: 5px; }
 
-.archive-date {
-  font-size: .9rem; }
-
 .meta {
   font-size: .8rem;
   text-align: right;
   padding-top: 3px; }
+
+.year-bundle {
+  border-top: 1px solid #b3b3b3;
+  padding-top: 10px; }
+
+.archive-date {
+  text-align: right; }
 
 .not-found {
   margin-top: 150px;

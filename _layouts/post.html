@@ -3,13 +3,8 @@ layout: default
 ---
 
 <article class="single-post row gutters">
-  <div class="col span_2 meta">
-    <!-- The empty element is needed for layout purposes -->
-  </div>
-  <div class="col span_8">
-    <date class="published">{{ page.date | date_to_long_string }}</date>
-    <h2>{{ page.title }}</h2>
+  <date class="published">{{ page.date | date_to_long_string }}</date>
+  <h2>{{ page.title }}</h2>
 
-    {{ content }}
-  </div>
+  {{ content }}
 </article>
