@@ -4,25 +4,32 @@ title: Archive
 ---
 
 <section class="post-archive">
-  {% for post in site.posts %}
-    {% unless post.next %}
-      {% unless forloop.first %}</div></div>{% endunless %}
-      <div class="year-bundle row gutters">
-      <h2 class="post-year col span_2">{{ post.date | date: '%Y' }}</h2>
-      <div class="posts-by-year col span_10">
-    {% else %}
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-      {% if year != nyear %}
-        {% unless forloop.first %}</ul>{% endunless %}
-        <h2 class="post-year">{{ post.date | date: '%Y' }}</h2>
-        <ul class="posts-by-year">
-      {% endif %}
-    {% endunless %}
+{% for post in site.posts %}
+{% unless post.next %}
 
-    <div class="row gutters">
-      <a href="{{ post.url }}" title="{{ post.title }}" class="col span_8">{{ post.title }}</a>
-      <span class="archive-date col span_4">{{ post.date | date_to_long_string }}</span>
-    </div>
-  {% endfor %}
+{% unless forloop.first %}</div></div>{% endunless %}
+
+  <div class="year-bundle row gutters">
+    <h2 class="post-year col span_2">{{ post.date | date: '%Y' }}</h2>
+    <div class="posts-by-year col span_10">
+
+{% else %}
+{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+{% if year != nyear %}
+
+{% unless forloop.first %}</div></div>{% endunless %}
+
+  <div class="year-bundle row gutters">
+    <h2 class="post-year col span_2">{{ post.date | date: '%Y' }}</h2>
+    <div class="posts-by-year col span_10">
+{% endif %}
+{% endunless %}
+
+  <div class="row gutters">
+    <a href="{{ post.url }}" title="{{ post.title }}" class="col span_8">{{ post.title }}</a>
+    <span class="archive-date col span_4">{{ post.date | date_to_long_string }}</span>
+  </div>
+
+{% endfor %}
 </section>

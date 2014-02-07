@@ -21,7 +21,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol,
 .highlight,
 blockquote,
 img,
-hr {
+hr,
+.year-bundle {
   margin-bottom: 15px; }
 
 ul, ol {
@@ -41,7 +42,7 @@ img {
   outline: none; }
 
 a {
-  color: #bf4e4c;
+  color: #9f3b39;
   text-decoration: none; }
   a:hover, a:active {
     color: #672625; }

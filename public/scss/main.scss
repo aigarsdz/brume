@@ -29,7 +29,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol,
 .highlight,
 blockquote,
 img,
-hr {
+hr,
+.year-bundle {
   margin-bottom: 15px;
 }
 
@@ -53,7 +54,7 @@ img {
 }
 
 a {
-  color: $accent-color;
+  color: darken($accent-color, 10%);
   text-decoration: none;
 
   &:hover,
