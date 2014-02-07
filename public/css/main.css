@@ -7,7 +7,6 @@
   box-sizing: border-box; }
 
 body {
-  color: #555;
   background-color: #f5f5f5;
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
@@ -47,6 +46,11 @@ a {
 code {
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   font-size: .8rem; }
+
+hr {
+  border: 0;
+  height: 25px;
+  background: url(/public/images/flower.png) center center no-repeat; }
 
 .highlight code {
   font-size: .7rem; }
@@ -104,11 +108,9 @@ p code {
 .single-post {
   margin-bottom: 100px; }
 
-.single-post {
-  font-size: 1.1rem; }
-  .single-post .published {
-    color: #999;
-    font-size: .9rem; }
+.single-post .published {
+  color: #999;
+  font-size: .9rem; }
 
 .listing {
   margin-bottom: 5px; }
