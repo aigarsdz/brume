@@ -8,7 +8,7 @@ This is how the "Home" page looks like.
 
 And this is a single post.
 
-![Home](https://www.dropbox.com/s/2c3iu33sz761n6u/Screenshot%202014-02-08%2016.36.06.png)
+![Home](https://dl.dropboxusercontent.com/u/9924988/Screenshot%202014-02-08%2016.36.06.png)
 
 ## Usage
 
