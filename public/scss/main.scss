@@ -213,9 +213,14 @@ footer {
 @media ( max-width : 768px ) {
   #logo,
   .post-archive,
+  .archive-date,
   .meta,
   .pagination {
     text-align: center;
+  }
+
+  .archive-entry {
+    margin-bottom: 20px;
   }
 
   #actual-logo {
