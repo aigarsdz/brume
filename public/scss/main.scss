@@ -212,18 +212,32 @@ footer {
     text-align: center;
   }
 
+  #actual-logo {
+    background-position: center center;
+  }
+
   .top {
-    height: 220px;
-    margin-bottom: 40px;
+    height: auto;
+    margin-bottom: 30px;
 
     nav {
-      margin-top: 20px;
+      margin-top: 30px;
+      height: auto;
+      text-align: center;
+      background-color: $contrast-color;
 
       a {
-        color: $contrast-color;
-        display: inline-block;
+        color: $site-background-color;
         padding: 10px 20px;
         margin-top: 0;
+        margin-right: 0;
+        border: none;
+        border-radius: 0;
+
+        &.current-page {
+          background-color: $site-background-color;
+          color: $contrast-color;
+        }
       }
     }
   }
@@ -234,5 +248,31 @@ footer {
 
   .archive-date {
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .top nav a {
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .top nav a {
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  .top nav {
+    background-color: $site-background-color;
+
+    a {
+      color: $contrast-color;
+
+      &.current-page {
+        border: 1px solid $contrast-color;
+      }
+    }
   }
 }
