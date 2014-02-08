@@ -71,6 +71,14 @@ p code {
   max-width: 750px;
   padding: 0 20px; }
 
+.right {
+  float: right;
+  margin: 0 0 20px 20px; }
+
+.left {
+  float: left;
+  margin: 0 20px 20px 0; }
+
 /* ====== Header
 ============================================================================= */
 #logo-container {
