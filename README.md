@@ -10,6 +10,12 @@ And this is a single post.
 
 ![Home](https://dl.dropboxusercontent.com/u/9924988/Screenshot%202014-02-08%2016.36.06.png)
 
+I also tried to make it responsive, but some tweaks are still needed.
+
+<p style="text-align: center;"><img src="https://dl.dropboxusercontent.com/u/9924988/Screen%20Shot%202014-02-07%20at%2016.46.40.png"></p>
+
+<p style="text-align: center;"><img src="https://dl.dropboxusercontent.com/u/9924988/Screen%20Shot%202014-02-07%20at%2016.46.51.png"></p>
+
 ## Usage
 
 - Download the ZIP file and extract it's contents.
