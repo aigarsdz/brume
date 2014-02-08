@@ -107,11 +107,7 @@ p code {
 
 /* ====== Main Content
 ============================================================================= */
-#posts {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s; }
-
-#posts,
+.post-archive,
 .single-post {
   margin-bottom: 100px; }
 
@@ -160,7 +156,7 @@ footer {
 ============================================================================= */
 @media (max-width: 768px) {
   #logo,
-  #posts,
+  .post-archive,
   .meta,
   .pagination {
     text-align: center; }
