@@ -2,7 +2,7 @@
 ============================================================================= */
 $site-background-color: #f5f5f5;
 $contrast-color: #333;
-$accent-color: #bf4e4c;
+$accent-color: #0971B2;
 
 /* ====== General Styles
 ============================================================================= */
@@ -55,7 +55,7 @@ img {
 }
 
 a {
-  color: darken($accent-color, 10%);
+  color: $accent-color;
   text-decoration: none;
 
   &:hover,
