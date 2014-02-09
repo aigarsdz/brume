@@ -31,5 +31,7 @@ title: Home
     <span class="archive-date col span_4">{{ post.date | date: "%-d %B" }}</span>
   </div>
 
+{% if forloop.last %}</div></div>{% endif %}
+
 {% endfor %}
 </section>
