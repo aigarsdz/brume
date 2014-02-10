@@ -20,6 +20,6 @@ And this is a single post.
 - If you don't want to use CC BY-NC 4.0 licence for the content, then you should change the footer text, which is located in *_layouts/default.html*.
 - Generate your site and be happy!
 
-In case you don't want to list all the posts in the index page, brume has a support for pagination, but you have to change the *index.html* file and include pagination section that is located in *_includes/pagination.html* and also change the `for` loop in *index.html* to iterate over `paginator.posts` instead of `site.posts`.
+In case you don't want to list all the posts in the index page, brume has a support for pagination, but you have to set the option in *_config.yml* file and change the *index.html* file to include pagination section that is located in *_includes/pagination.html* and also change the `for` loop in *index.html* to iterate over `paginator.posts` instead of `site.posts`.
 
 Express your thoughts about brume on Twitter [@aigarsdz](http://twitter.com/aigarsdz), and help me make it better!

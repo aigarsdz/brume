@@ -1,6 +1,5 @@
 markdown: redcarpet
 pygments: true
-paginate: 10
 permalink: /:title
 
 url:
