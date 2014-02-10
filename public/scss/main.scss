@@ -1,5 +1,4 @@
-/* ====== Variables
-============================================================================= */
+// Variables
 $site-background-color: #f5f5f5;
 $contrast-color: #333;
 $accent-color: #0971B2;
@@ -10,8 +9,7 @@ $accent-color: #0971B2;
   margin: 0;
   padding: 0;
 
-  -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -155,11 +153,9 @@ p code {
   margin-bottom: 100px;
 }
 
-.single-post {
-  .published {
-    color: #999;
-    font-size: .9rem;
-  }
+.single-post .published {
+  color: #999;
+  font-size: .9rem;
 }
 
 .listing {
