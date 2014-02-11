@@ -28,7 +28,9 @@ title: Home
 
   <div class="row gutters archive-entry">
     <a href="{{ post.url }}" title="{{ post.title }}" class="col span_8">{{ post.title }}</a>
-    <span class="archive-date col span_4">{{ post.date | date: "%-d %B" }}</span>
+    <div class="archive-date col span_4">
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time>
+    </div>
   </div>
 
 {% if forloop.last %}</div></div>{% endif %}
