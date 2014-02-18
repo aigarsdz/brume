@@ -108,8 +108,9 @@ p code {
   display: inline-block;
   height: 110px;
   width: 110px;
-  background: url(/public/images/logo.png) left center no-repeat;
   background-size: 90px 90px;
+  background-position: left center;
+  background-repeat: no-repeat;
 }
 
 .top {
