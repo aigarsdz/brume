@@ -3,3 +3,4 @@ _site
 .jshintrc
 img/Thumbs.db
 .DS_Store
+node_modules
