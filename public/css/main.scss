@@ -1,7 +1,11 @@
 // Variables
 $site-background-color: #f5f5f5;
 $contrast-color: #333;
-$accent-color: #0971B2;
+
+$azure-accent-color: #007fff;
+$ruby-accent-color: #e0115f;
+$amber-accent-color: #ff7e00;
+$avocado-accent-color: #568203;
 
 /* ====== General Styles
 ============================================================================= */
@@ -53,12 +57,12 @@ img {
 }
 
 a {
-  color: $accent-color;
+  color: $azure-accent-color;
   text-decoration: none;
 
   &:hover,
   &:active {
-    color: darken($accent-color, 25%);
+    color: darken($azure-accent-color, 15%);
   }
 }
 
@@ -98,6 +102,42 @@ p code {
 .left {
   float: left;
   margin: 0 20px 20px 0;
+}
+
+.azure a {
+  color: $azure-accent-color;
+
+  &:hover,
+  &:active {
+    color: darken($azure-accent-color, 15%);
+  }
+}
+
+.ruby a {
+  color: $ruby-accent-color;
+
+  &:hover,
+  &:active {
+    color: darken($ruby-accent-color, 15%);
+  }
+}
+
+.amber a {
+  color: $amber-accent-color;
+
+  &:hover,
+  &:active {
+    color: darken($amber-accent-color, 15%);
+  }
+}
+
+.avocado a {
+  color: $avocado-accent-color;
+
+  &:hover,
+  &:active {
+    color: darken($avocado-accent-color, 15%);
+  }
 }
 
 /* ====== Header
