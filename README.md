@@ -31,6 +31,6 @@ This theme has 4 predefined colors that can be used for links:
 - amber
 - avocado
 
-By default it uses *azure*, but if you want to select another one just change the class of `container` div in *_layouts/default.html* to one of the provided names.
+By default it uses *azure*, but if you want to select another one just change the second class of `container` div in *_layouts/default.html* to one of the provided names.
 
 Express your thoughts about brume on Twitter [@aigarsdz](http://twitter.com/aigarsdz), and help me make it better!

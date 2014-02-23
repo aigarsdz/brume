@@ -29,7 +29,8 @@ gulp.task('stylesheets', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch(paths.scripts, ['scripts', 'stylesheets']);
+  gulp.watch(paths.scripts, ['scripts']);
+  gulp.watch(paths.stylesheets, ['stylesheets']);
 });
 
 gulp.task('default', ['scripts', 'stylesheets', 'watch']);
