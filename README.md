@@ -4,11 +4,11 @@ I am not a designer so I cannot impress you with breathtaking Jekyll themes, but
 
 This is how the "Home" page looks like.
 
-![Home](https://dl.dropboxusercontent.com/u/9924988/Screen%20Shot%202014-02-08%20at%2016.34.04.png)
+![Home](http://s13.postimg.org/7phhe94vb/Screen_Shot_2014_02_26_at_18_48_57.png)
 
 And this is a single post.
 
-![Home](https://dl.dropboxusercontent.com/u/9924988/Screenshot%202014-02-08%2016.36.06.png)
+![Home](http://s12.postimg.org/d6j0yidhp/Screen_Shot_2014_02_26_at_18_49_04.png)
 
 ## Usage
 
