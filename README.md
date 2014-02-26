@@ -4,11 +4,11 @@ I am not a designer so I cannot impress you with breathtaking Jekyll themes, but
 
 This is how the "Home" page looks like.
 
-![Home](http://s13.postimg.org/7phhe94vb/Screen_Shot_2014_02_26_at_18_48_57.png)
+![Home](https://dl.dropboxusercontent.com/u/9924988/Screen%20Shot%202014-02-26%20at%2018.48.57.png)
 
 And this is a single post.
 
-![Home](http://s12.postimg.org/d6j0yidhp/Screen_Shot_2014_02_26_at_18_49_04.png)
+![Home](https://dl.dropboxusercontent.com/u/9924988/Screen%20Shot%202014-02-26%20at%2018.49.04.png)
 
 ## Usage
 
@@ -30,6 +30,8 @@ This theme has 4 predefined colors that can be used for links:
 - ruby
 - amber
 - avocado
+
+![Color Examples](http://s1.postimg.org/4slg8sqhr/colors.png)
 
 By default it uses *azure*, but if you want to select another one just change the second class of `container` div in *_layouts/default.html* to one of the provided names.
 
