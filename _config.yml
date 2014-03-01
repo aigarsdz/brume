@@ -2,7 +2,7 @@ markdown: redcarpet
 pygments: true
 permalink: /:title
 
-baseurl: /brume
+url: http://aigarsdz.github.io/brume
 
 redcarpet:
   extensions: [strikethrough]
