@@ -2,7 +2,7 @@ markdown: redcarpet
 pygments: true
 permalink: /:title
 
-url:
+baseurl: /brume
 
 redcarpet:
   extensions: [strikethrough]
