@@ -6,7 +6,7 @@ layout: none
   <channel>
     <title>{{ site.data.brume.name }}</title>
     <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml" />
     <description>{{ site.data.brume.description }}</description>
     <language>en-us</language>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
@@ -15,7 +15,7 @@ layout: none
     {% for post in site.posts limit: 10 %}
       <item>
         <title>{{ post.title }}</title>
-        <link>{{ site.url }}{{ post.url }}</link>
+        <link>{{ site.url }}{{ site.baseurl }}{{ post.url }}</link>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <author>{{ site.data.brume.author}}</author>
         <description>{{ post.content | xml_escape }}</description>

@@ -3,6 +3,7 @@ pygments: true
 permalink: /:title
 
 url: http://aigarsdz.github.io/brume
+baseurl:
 
 redcarpet:
-  extensions: [strikethrough]
+  extensions: [strikethrough, tables]
