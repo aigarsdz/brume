@@ -3,13 +3,13 @@ layout: default
 title: Home
 ---
 
-<section class="post-archive">
+<section class="archive">
 {% for post in site.posts %}
 {% unless post.next %}
 
 {% unless forloop.first %}</div></div>{% endunless %}
 
-  <div class="year-bundle row gutters fadeInDown animated">
+  <div class="bundle row gutters fadeInDown animated">
     <h2 class="post-year col span_2">{{ post.date | date: '%Y' }}</h2>
     <div class="posts-by-year col span_10">
 
@@ -20,18 +20,18 @@ title: Home
 
 {% unless forloop.first %}</div></div>{% endunless %}
 
-  <div class="year-bundle row gutters fadeInDown animated">
+  <div class="bundle row gutters fadeInDown animated">
     <h2 class="post-year col span_2">{{ post.date | date: '%Y' }}</h2>
     <div class="posts-by-year col span_10">
 {% endif %}
 {% endunless %}
 
-  <div class="row gutters archive-entry">
+  <article class="row gutters">
     <a href="{{site.url}}{{ post.url }}" title="{{ post.title }}" class="col span_8">{{ post.title }}</a>
-    <div class="archive-date col span_4">
+    <div class="post-date col span_4">
       <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time>
     </div>
-  </div>
+  </article>
 
 {% if forloop.last %}</div></div>{% endif %}
 
