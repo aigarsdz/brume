@@ -26,6 +26,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, dl,
 blockquote,
+table,
 img,
 hr,
 .fluid-width-video-wrapper,
@@ -70,6 +71,31 @@ p code {
   background-color: #f8f8f8;
   border-radius: 3px;
   white-space: nowrap;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid $contrast-color;
+
+  td, th {
+    border: 1px solid $contrast-color;
+    padding: 5px 10px;
+  }
+
+  thead {
+    background-color: darken($site-background-color, 10%);
+  }
+}
+
+dt {
+  float: left;
+  width: 30%;
+  font-weight: bold;
+}
+
+dd {
+  float: right;
+  width: 70%;
 }
 
 footer {
@@ -187,6 +213,18 @@ footer {
 
 .not-found h1 {
   font-size: 8rem;
+}
+
+dl,
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+dl,
+.clearfix:after {
+    clear: both;
 }
 
 /*============================================================================*/

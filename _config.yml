@@ -6,4 +6,4 @@ url:
 baseurl:
 
 redcarpet:
-  extensions: [strikethrough]
+  extensions: [strikethrough, tables]
