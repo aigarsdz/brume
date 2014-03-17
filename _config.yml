@@ -1,9 +1,0 @@
-markdown: redcarpet
-pygments: true
-permalink: /:title
-
-url: http://yuanyong.org/brume
-baseurl: /brume
-
-redcarpet:
-  extensions: [strikethrough, tables]
