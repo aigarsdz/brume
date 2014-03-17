@@ -4,10 +4,11 @@
     {% include head.html %}
   </head>
   <body>
-    <div class="container">
+    <div class="container azul">
       <header class="top row gutters{% if page.title == "Home" %} fadeInLeft animated{% endif %}">
-        <div class="col span_2" id="logo-container">
-          <a href="/" id="actual-logo" title="{{ site.title }}"></a>
+        <div class="col span_2 center">
+          <a href="{{ site.url }}" id="logo" title="{{ site.data.brume.name }}"
+             style="background-image: url({{site.baseurl}}/public/images/logo.png);"></a>
         </div>
         {% include navigation.html %}
       </header>
@@ -23,7 +24,7 @@
 
     <!-- scripts -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="/public/js/jquery.fitvids.min.js"></script>
+    <script src="{{site.baseurl}}/public/js/jquery.fitvids.js"></script>
     <script>
       $(document).ready(function(){
         $("article").fitVids();

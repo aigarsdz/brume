@@ -4,13 +4,15 @@ I am not a designer so I cannot impress you with breathtaking Jekyll themes, but
 
 This is how the "Home" page looks like.
 
-![Home](https://dl.dropboxusercontent.com/u/9924988/Screen%20Shot%202014-02-08%20at%2016.34.04.png)
+![Home](https://dl.dropboxusercontent.com/u/9924988/Screen%20Shot%202014-02-26%20at%2018.48.57.png)
 
 And this is a single post.
 
-![Home](https://dl.dropboxusercontent.com/u/9924988/Screenshot%202014-02-08%2016.36.06.png)
+![Home](https://dl.dropboxusercontent.com/u/9924988/Screen%20Shot%202014-02-26%20at%2018.49.04.png)
 
 ## Usage
+
+**Important:** The latest version of brume uses `site.baseurl` for links, therefore, if you want to put your site in a subdirectory, update the *_config.yml* file!
 
 - Download the ZIP file and extract it's contents.
 - Open *_config.yml* file and enter your site's URL and add additional configuration or update the existing one if needed.
@@ -20,6 +22,17 @@ And this is a single post.
 - If you don't want to use CC BY-NC 4.0 licence for the content, then you should change the footer text, which is located in *_layouts/default.html*.
 - Generate your site and be happy!
 
-In case you don't want to list all the posts in the index page, brume has a support for pagination, but you have to set the option in *_config.yml* file and change the *index.html* file to include pagination section that is located in *_includes/pagination.html* and also change the `for` loop in *index.html* to iterate over `paginator.posts` instead of `site.posts`.
+## Theme customization
+
+This theme has 4 predefined colors that can be used for links:
+
+- azul
+- ruby
+- amber
+- avocado
+
+![Color Examples](https://dl.dropboxusercontent.com/u/9924988/colors_new.png)
+
+By default it uses *azure*, but if you want to select another one just change the second class of `container` div in *_layouts/default.html* to one of the provided names.
 
 Express your thoughts about brume on Twitter [@aigarsdz](http://twitter.com/aigarsdz), and help me make it better!
