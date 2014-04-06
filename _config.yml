@@ -3,7 +3,7 @@ pygments: true
 permalink: /:title
 
 url:
-baseurl:
+baseurl: /brume
 
 redcarpet:
   extensions: [strikethrough, tables]
