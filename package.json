@@ -1,12 +1,12 @@
 {
   "devDependencies": {
-    "gulp-concat": "~2.1.7",
-    "gulp-uglify": "~0.2.1",
-    "gulp-util": "~2.2.14",
-    "gulp": "~3.5.2",
-    "gulp-sass": "~0.7.0",
-    "gulp-minify-css": "~0.3.0",
-    "gulp-coffee": "1.4.1",
-    "gulp-autoprefixer": "0.0.6"
+    "gulp-concat": "*",
+    "gulp-uglify": "*",
+    "gulp-util": "*",
+    "gulp": "*",
+    "gulp-sass": "*",
+    "gulp-minify-css": "*",
+    "gulp-coffee": "*",
+    "gulp-autoprefixer": "*"
   }
 }
