@@ -3,7 +3,7 @@ highlighter: null
 permalink: /:title
 
 url:
-baseurl:
+baseurl: /brume
 
 redcarpet:
   extensions: [strikethrough, tables]
