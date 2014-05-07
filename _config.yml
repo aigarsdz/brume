@@ -1,5 +1,5 @@
 markdown: redcarpet
-pygments: true
+highlighter: null
 permalink: /:title
 
 url:
@@ -7,3 +7,7 @@ baseurl:
 
 redcarpet:
   extensions: [strikethrough, tables]
+
+sass:
+  sass_dir: public/css
+  style: :compressed
