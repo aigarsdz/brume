@@ -5,3 +5,4 @@ img/Thumbs.db
 .DS_Store
 node_modules
 .sass-cache
+.ruby-version
