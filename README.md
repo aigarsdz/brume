@@ -22,6 +22,10 @@ And this is a single post.
 - If you don't want to use CC BY-NC 4.0 licence for the content, then you should change the footer text, which is located in *_layouts/default.html*.
 - Generate your site and be happy!
 
+### Jekyll < 2.0.0
+
+I try to keep brume up to date with the newest Jekyll version. Jekyll 2.0.0 introduced a lot of changes (like a built in Sass support) that are not backward compatible, therefore I have created a separate branch `legacy` for those, who might be using an older Jekyll version. All the changes that I introduce in `master` will be ported to `legacy`.
+
 ## Theme customization
 
 This theme has 4 predefined colors that can be used for links:
