@@ -1,7 +1,7 @@
 markdown: redcarpet
 permalink: /:title
 
-url:
+url: http://aigarsdz.github.io
 baseurl: /brume
 
 redcarpet:
