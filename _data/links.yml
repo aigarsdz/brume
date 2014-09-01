@@ -1,5 +1,16 @@
-- url: /
+- url: /home
   title: Home
 
-- url: /about
-  title: About
+- url: /research
+  title: Research
+
+- url: /interests
+  title: Interests
+
+- url: /projects
+  title: Projects
+
+- url: /
+  title: Blog
+
+

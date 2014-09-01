@@ -2,7 +2,7 @@ markdown: redcarpet
 highlighter: null
 permalink: /:title
 
-url:
+url: http://localhost:4000
 baseurl:
 
 redcarpet:
