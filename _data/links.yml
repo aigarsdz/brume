@@ -10,7 +10,5 @@
 - url: /blog
   title: Blog
 
-- url: docs/CV.pdf
+- url: /docs/CV.pdf
   title: CV
-
-
