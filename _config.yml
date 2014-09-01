@@ -2,7 +2,7 @@ markdown: redcarpet
 highlighter: null
 permalink: /:title
 
-url: http://vrama91.github.io
+url: http:localhost:4000
 baseurl:
 
 redcarpet:
