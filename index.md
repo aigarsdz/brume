@@ -4,9 +4,9 @@ title: Home
 ---
 <h3>News</h3>
 <ul>
-	<li> I am doing an Independent Study this semester on Deep Learning for Vision Applications, based on Yann Le Cun's <a href='http://cilvr.nyu.edu/doku.php?id=courses:deeplearning:start'>NYU course</a>.</li>
+	<li> I am doing an Independent Study this semester on Deep Learning for Vision Applications, based on Yann Le Cun's <a href='http://cilvr.nyu.edu/doku.php?id=courses:deeplearning:start'>NYU course</a> with Prof. Dhruv Batra.</li>
 	<li> I am serving on the Program Committee for <a href='mile.ee.iisc.ernet.in/ICVGIP2014/'> ICVGIP 2014</a></li>
-	<li> I interned at the Center for Visual Computing at Ecole Centrale de Paris/INRIA-Saclay in Summer, 2014 with Prof. Iasonas Kokkinos.</li>
+	<li> I interned at the <a href='http://cvn.ecp.fr/'>Center for Visual Computing</a> at Ecole Centrale de Paris/INRIA-Saclay in Summer, 2014 with Prof. Iasonas Kokkinos.</li>
 	<li> I attended the <a href='http://svg.dmi.unict.it/icvss2014/'>International Computer Vision Summer School</a> (ICVSS) 2014</li>
 	<li> I gave a talk at <a href='https://filebox.ece.vt.edu/~macv2014/'>Mid Atlantic Computer Vision Workshop</a> (MACV), 2014</li>
 </ul>
