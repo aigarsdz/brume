@@ -15,4 +15,6 @@ Projects:
 	</li>
 	<li> <div> <b>3D reconstruction using Aerial Images</b> (Internship Project at Siemens Research, Bangalore): An SFM pipeline for 3D reconstruction is described that uses several publically available softwares such as Bundlr, PMVS etc.<br/> <a href='/docs/siemens.ppsx'>[Presentation]</a>
 	</li>
+	<li> <div> <b>Image Stitching and Rectification</b>: This is something I dug up from my undergrad days at IIIT-Hyderabad. The report describes the results from a code that estimated the homography between a pair of images using RANSAC and proceeded to stitch them together. Days when the dataset collection process was just you going out with your camera and snapping a few images ! <br/> <a href='/docs/stitching.pdf'>[Report]</a>
+	</li>
 </ul>
