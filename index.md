@@ -2,7 +2,15 @@
 layout: home
 title: Home
 ---
-
+<h3>News</h3>
+<ul>
+	<li> I am doing an Independent Study this semester on Deep Learning for Vision Applications, based on Yann Le Cun's <a href='http://cilvr.nyu.edu/doku.php?id=courses:deeplearning:start'>NYU course</a>.</li>
+	<li> I am serving on the Program Committee for <a href='mile.ee.iisc.ernet.in/ICVGIP2014/'> ICVGIP 2014</a></li>
+	<li> I am interning at the Center for Visual Computing at ECP/INRIA-Saclay in Summer, 2014 with Prof. Iasonas Kokkinos.</li>
+	<li> I am attending the <a href='http://svg.dmi.unict.it/icvss2014/'>International Computer Vision Summer School</a> (ICVSS) 2014</li>
+	<li> I gave a talk at <a href='https://filebox.ece.vt.edu/~macv2014/'>Mid Atlantic Computer Vision Workshop</a> (MACV), 2014</li>
+</ul>
+<hr/>
 Hi ! I am a masters student at Virginia Tech working under the guidance of <a href='http://filebox.ece.vt.edu/~parikh'>Prof. Devi Parikh</a> at the Computer Vision Lab (CVL). I am primarily interested in Computer Vision and Machine Learning.
 
 My recent work focuses on Scene Understanding problems like Semantic Image Understanding and Face Detection. I work closely with <a href='http://research.microsoft.com/en-us/people/larryz/'>Dr. Larry Zitnick</a>, <a href='http://cvn.ecp.fr/personnel/iasonas/'> Prof. Iasonas Kokkinos</a> and<a href='https://filebox.ece.vt.edu/~dbatra/'> Prof. Dhruv Batra</a>. 
@@ -16,3 +24,6 @@ Previously I finished my undergrad in ECE at IIIT-Hyderabad where I worked with 
 	<tr><td>2009-2013</td><td>2013-2015</td><td>Summer, 2012</td><td>Summer, 2014</td><td>Summer, 2014</td></tr>
 </table>
 </div>
+
+
+
