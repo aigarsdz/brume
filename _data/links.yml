@@ -4,13 +4,13 @@
 - url: /research
   title: Research
 
-- url: /interests
-  title: Interests
-
-- url: /projects
-  title: Projects
+- url: /contact
+  title: Contact
 
 - url: /blog
   title: Blog
+
+- url: docs/CV.pdf
+  title: CV
 
 
