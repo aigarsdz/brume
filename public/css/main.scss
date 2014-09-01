@@ -80,17 +80,19 @@ p code {
 
 table {
   border-collapse: collapse;
-  border: 1px solid $contrast-color;
+  border: 0px solid $contrast-color;
 
   td, th {
-    border: 1px solid $contrast-color;
-    padding: 5px 10px;
+    border: 0px solid $contrast-color;
+    padding: 1px 6px;
+    text-align: center;
   }
 
   thead {
     background-color: darken($site-background-color, 10%);
   }
 }
+
 
 // TODO: make dt smaller
 dt {
