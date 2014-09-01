@@ -4,8 +4,6 @@ title: Research
 ---
 Publications:
 <ol>
-<!--	<li> Adopting Abstract Scenes For Semantic Scene Understanding. <br/>Zitnick,L, &nbsp;Vedantam,R and Parikh, D. (In Submission to IEEE-TPAMI)
-	</li>-->
 </ol>
 <hr/>
 Projects:
