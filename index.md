@@ -24,6 +24,8 @@ Previously I finished my undergrad in ECE at IIIT-Hyderabad where I worked with 
 	<tr><td>2009-2013</td><td>2013-2015</td><td>Summer, 2012</td><td>Summer, 2014</td><td>Summer, 2014</td></tr>
 </table>
 </div>
+<hr/>
+If you like this layout/page, see <a href='demo-post'> this</a> to build your own using github+jekyll 
 
 
 
