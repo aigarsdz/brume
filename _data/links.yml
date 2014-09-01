@@ -1,4 +1,4 @@
-- url: /home
+- url: /
   title: Home
 
 - url: /research
@@ -10,7 +10,7 @@
 - url: /projects
   title: Projects
 
-- url: /
+- url: /blog
   title: Blog
 
 

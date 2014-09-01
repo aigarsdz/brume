@@ -5,7 +5,7 @@
   <channel>
     <title>{{ site.data.brume.name }}</title>
     <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}{{ site.baseurl }}/blog/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/rss+xml" />
     <description>{{ site.data.brume.description }}</description>
     <language>en-us</language>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
