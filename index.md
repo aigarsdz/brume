@@ -16,7 +16,7 @@ Hi ! I am a masters student at Virginia Tech working under the guidance of <a hr
 
 My recent work focuses on Scene Understanding problems like Semantic Image Understanding and Face Detection. I work closely with <a href='http://research.microsoft.com/en-us/people/larryz/'>Dr. Larry Zitnick</a>, <a href='http://cvn.ecp.fr/personnel/iasonas/'> Prof. Iasonas Kokkinos</a> and<a href='https://filebox.ece.vt.edu/~dbatra/'> Prof. Dhruv Batra</a>. 
 
-Previously I finished my undergrad in ECE at IIIT-Hyderabad where I worked with <a href='http://www.iiit.ac.in/people/faculty/mkrishna'>Prof. K. Madhava Krishna</a> on 3D reconstruction.
+Previously I finished my undergrad in ECE at IIIT-Hyderabad where I worked with <a href='http://www.iiit.ac.in/people/faculty/mkrishna'>Prof. K. Madhava Krishna</a> on 3D reconstruction. <a href='https://sites.google.com/site/ramakrishnavedantam928/'>Here</a> is a link to my undergrad website.
 <hr/>
 <div align="center"><b>I have spent several months at</b></div>
 <div align="center">
