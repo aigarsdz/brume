@@ -8,7 +8,7 @@ title: Home
 	<li> I am serving on the Program Committee for <a href='mile.ee.iisc.ernet.in/ICVGIP2014/'> ICVGIP 2014</a></li>
 	<li> I interned at the <a href='http://cvn.ecp.fr/'>Center for Visual Computing</a> at Ecole Centrale de Paris/INRIA-Saclay in Summer, 2014 with Prof. Iasonas Kokkinos</li>
 	<li> I won the Best Discussion Participant Award in the <a href='https://filebox.ece.vt.edu/~S14ECE5984/'>Advanced Topics in Computer Vision</a> course taught by Prof. Devi Parikh
-	<li> I attended the <a href='http://svg.dmi.unict.it/icvss2014/'>International Computer Vision Summer School</a> (ICVSS) 2014</li>
+	<li> I attended the <a href='http://svg.dmi.unict.it/icvss2014/'>International Computer Vision Summer School</a> (ICVSS), 2014</li>
 	<li> I gave a talk at <a href='https://filebox.ece.vt.edu/~macv2014/'>Mid Atlantic Computer Vision Workshop</a> (MACV), 2014</li>
 </ul>
 <hr/>
