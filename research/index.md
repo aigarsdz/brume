@@ -17,4 +17,6 @@ Projects:
 	</li>
 	<li> <div> <b>Image Stitching and Rectification</b>: This is something I dug up from my undergrad days at IIIT-Hyderabad. The report describes the results from a code that estimated the homography between a pair of images using RANSAC and proceeded to stitch them together. Days when the dataset collection process was just you going out with your camera and snapping a few images ! <br/> <a href='/docs/stitching.pdf'>[Report]</a>
 	</li>
+	<li> <div> <b>Cansat 2011</b>: CanSat is a NASA sponsored international competition, organized, each year, by American Astronautical Society. The contest allows student teams, from colleges and Universities around the world, to design, build, and fly, according to the criteria spelled out the organizing committee, an aerospace system called CANSAT. Our team from IIIT-Hyderabad won the third place in the 2011 world finals.<br/> <a href='http://web.iiit.ac.in/~ramakrishna.vedantam/Cansat/index.html'>[Press Release]</a>
+	</li>
 </ul>
