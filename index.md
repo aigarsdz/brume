@@ -12,7 +12,7 @@ title: Home
 	<li> I gave a talk at <a href='https://filebox.ece.vt.edu/~macv2014/'>Mid Atlantic Computer Vision Workshop</a> (MACV), 2014</li>
 </ul>
 <hr/>
-Hi ! I am a masters student at Virginia Tech working under the guidance of <a href='http://filebox.ece.vt.edu/~parikh'>Prof. Devi Parikh</a> at the Computer Vision Lab (CVL). I am primarily interested in Computer Vision and Machine Learning.
+Hi ! I am a masters student at Virginia Tech working under the guidance of <a href='http://filebox.ece.vt.edu/~parikh'>Prof. Devi Parikh</a> at the <a href='https://filebox.ece.vt.edu/~parikh/CVL.html'>Computer Vision Lab</a> (CVL). I am primarily interested in Computer Vision and Machine Learning.
 
 My recent work focuses on Scene Understanding problems like Semantic Image Understanding and Face Detection. I work closely with <a href='http://research.microsoft.com/en-us/people/larryz/'>Dr. Larry Zitnick</a>, <a href='http://cvn.ecp.fr/personnel/iasonas/'> Prof. Iasonas Kokkinos</a> and<a href='https://filebox.ece.vt.edu/~dbatra/'> Prof. Dhruv Batra</a>. 
 
