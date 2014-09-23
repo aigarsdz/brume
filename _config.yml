@@ -1,5 +1,5 @@
 markdown: redcarpet
-highlighter: null
+highlighter: pygments
 permalink: /:title
 
 url: http://ramakrishnavedantam928.github.io
