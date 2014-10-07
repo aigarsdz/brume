@@ -17,7 +17,7 @@ title: Contact
 <div align="center">
 <table>
 	<tr><td></td><td>
-<a href='mailto:vrama91@vt.edu'><img src='/public/images/57x57/email-blue.png' width='50'></a></td></tr><tr><td><a href='http://lnkd.in/d5EGuK4'><img src='/public/images/57x57/linkedin.png' width='50'></a></td><td><a href='https://www.facebook.com/ramakrishna928'><img src='/public/images/57x57/facebook.png' width='50'></a></td><td><a href='https://plus.google.com/+RamakrishnaVedantam/posts'><img src='/public/images/57x57/googleplus.png' width='50'></a></td></tr>
+Email: vrama91_at_vt_dot_edu</td></tr><tr><td><a href='http://lnkd.in/d5EGuK4'><img src='/public/images/57x57/linkedin.png' width='50'></a></td><td><a href='https://www.facebook.com/ramakrishna928'><img src='/public/images/57x57/facebook.png' width='50'></a></td><td><a href='https://plus.google.com/+RamakrishnaVedantam/posts'><img src='/public/images/57x57/googleplus.png' width='50'></a></td></tr>
 </table>
 </div>
 <div align="center">
