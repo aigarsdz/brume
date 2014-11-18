@@ -5,8 +5,8 @@ title: Research
 Publications:
 <ol>
 	<li> <b> C. Lawrence Zitnick, Ramakrishna Vedantam, Devi Parikh</b> <br/>
-		<a href="/docs/AbstractScenesPAMI14.pdf">Adopting Abstract Images for Semantic Scene Understanding</a> <br/>
-		Accepted to PAMI, 2014 
+		<a href="https://filebox.ece.vt.edu/~parikh/Publications/ZitnickVedantamParikh_clipart_PAMI2015.pdf">Adopting Abstract Images for Semantic Scene Understanding</a> <br/>
+		Accepted to PAMI, 2015 
 	</li>
 </ol>
 <hr/>
