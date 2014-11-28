@@ -9,6 +9,13 @@ Publications:
 		Accepted to PAMI, 2015 
 	</li>
 </ol>
+arXiv:
+<ol>
+	<li> <b> Ramakrishna Vedantam, C. Lawrence Zitnick, Devi Parikh</b> <br/>
+		<a href="http://arxiv.org/pdf/1411.5726v1.pdf">Consensus-based image Description Evaluation</a> <br/>
+	</li>
+</ol>
+
 <hr/>
 Projects:
 <ul>
