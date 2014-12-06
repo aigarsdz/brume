@@ -4,6 +4,7 @@ title: Home
 ---
 <h3>News</h3>
 <ul>
+	<li> Checkout our arXiv paper on CIDEr: Consensus-based Image Description Evaluation </li>
 	<li> Paper on "Adopting Abstract Images for Semantic Scene Understanding" accepted to IEEE TPAMI</li>
 	<li> I am doing an Independent Study this fall on Deep Learning for Vision Applications, based on Yann Le Cun's <a href='http://cilvr.nyu.edu/doku.php?id=courses:deeplearning:start'>NYU course</a> with Prof. Dhruv Batra</li>
 	<li> I am serving on the Program Committee for <a href='http://mile.ee.iisc.ernet.in/ICVGIP2014/'> ICVGIP 2014</a></li>
