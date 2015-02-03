@@ -13,6 +13,7 @@ arXiv:
 <ol>
 	<li> <b> Ramakrishna Vedantam, C. Lawrence Zitnick, Devi Parikh</b> <br/>
 		<a href="http://arxiv.org/pdf/1411.5726v1.pdf">Consensus-based image Description Evaluation</a> <br/>
+		<a href="http://ramakrishnavedantam928.github.io/cider-matlab/">[Project Page]</a> <a href="https://github.com/ramakrishnavedantam928/cider-matlab">[Code]</a><br/>
 	</li>
 </ol>
 
