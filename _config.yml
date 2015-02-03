@@ -1,4 +1,5 @@
 markdown: redcarpet
+<<<<<<< HEAD
 highlighter: pygments
 permalink: /:title
 
@@ -11,3 +12,12 @@ redcarpet:
 sass:
   sass_dir: public/css
   style: :compressed
+=======
+permalink: /:title
+
+url: http://aigarsdz.github.io
+baseurl: /brume
+
+redcarpet:
+  extensions: [strikethrough, tables]
+>>>>>>> FETCH_HEAD
