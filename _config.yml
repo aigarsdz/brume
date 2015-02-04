@@ -3,7 +3,7 @@ highlighter: pygments
 permalink: /:title
 
 url: http://ramakrishnavedantam928.github.io
-baseurl:/brume
+baseurl: /brume
 
 redcarpet:
   extensions: [strikethrough, tables]
