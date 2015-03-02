@@ -5,11 +5,11 @@ title: Publications
 <ol>
 	<li> <b> C. Lawrence Zitnick, Ramakrishna Vedantam, Devi Parikh</b> <br/>
 		<a href="https://filebox.ece.vt.edu/~parikh/Publications/ZitnickVedantamParikh_clipart_PAMI2015.pdf">Adopting Abstract Images for Semantic Scene Understanding</a> <br/>
-		Accepted to IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2015 
+		IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2015 
 	</li>
 	<li> <b> Ramakrishna Vedantam, C. Lawrence Zitnick, Devi Parikh</b> <br/>
 		<a href="http://arxiv.org/pdf/1411.5726v1.pdf">CIDEr: Consensus-based Image Description Evaluation</a> <br/>
-		Accepted to IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015 <br/>
+		IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015 <br/>
 		<a href="http://ramakrishnavedantam928.github.io/cider-matlab/">[Project Page]</a> <a href="https://github.com/ramakrishnavedantam928/cider-matlab">[Code]</a><br/>
 	</li>
 </ol>
