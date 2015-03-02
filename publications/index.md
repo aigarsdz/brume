@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Research
+title: Publications
 ---
 Publications:
 <ol>
@@ -16,7 +16,7 @@ Publications:
 </ol>
 
 <hr/>
-Projects:
+<h2>Projects:</h2>
 <ul>
 	<li> <b> Loopy Part Models for Detection and Localization</b> (Internship Project at Ecole Centrale de Paris): A recent inference technique using Alternating Direction Method of Multipliers (ADMM) proposed for Medical Image Segmentation by Boussaid et. al was adapted for the Face Detection model of Xu et. al. Results comparable to the state of the art in detection and face landmark localization were achieved. An extension of the ADMM based technique was proposed for detecting multiple faces.</li>
 	<li> <div> <b>Understanding and Predicting Importance of Abstract Images</b> : Recent work in Computer Vision has explored the importance of objects in an Image. Importance is quantified as the probability of an object in the Image being mentioned in a sentence describing it. This project is an attempt to study and predict importance with semantic features such as gaze, expression and pose, on an abstract scenes dataset.<br/> <a href='https://filebox.ece.vt.edu/~s14ece6504/projects/vrama91_importance/index.html'>[Project Page]</a><a href='/docs/abstract_importance.pdf'>[Report]</a>
