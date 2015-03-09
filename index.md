@@ -5,7 +5,7 @@ title: Home
 <h3>News</h3>
 <ul>
  	<li> Paper on "CIDEr: Consensus-Based Image Description Evaluation" accepted to CVPR, 2015
-	<li> NEW! Checkout our <a href="https://github.com/ramakrishnavedantam928/cider-matlab">code</a> and <a href="http://ramakrishnavedantam928.github.io/cider-matlab/">project page</a> for CIDEr, a new metric for image captioning systems</li>
+	<li> Checkout our <a href="https://github.com/ramakrishnavedantam928/cider-matlab">code</a> and <a href="http://ramakrishnavedantam928.github.io/cider-matlab/">project page</a> for CIDEr, a new metric for image captioning systems</li>
 	<li> Paper on "Adopting Abstract Images for Semantic Scene Understanding" accepted to IEEE TPAMI</li>
 	<li> I am serving on the Program Committee for <a href='http://mile.ee.iisc.ernet.in/ICVGIP2014/'> ICVGIP 2014</a></li>
 	<li> I interned at the <a href='http://cvn.ecp.fr/'>Center for Visual Computing</a> at Ecole Centrale de Paris/INRIA-Saclay in Summer, 2014 with Prof. Iasonas Kokkinos</li>
