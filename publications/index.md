@@ -2,6 +2,7 @@
 layout: page
 title: Publications
 ---
+
 <ol>
 	<li> <b> Ramakrishna Vedantam, C. Lawrence Zitnick, Devi Parikh</b> <br/>
 		<a href="http://arxiv.org/pdf/1411.5726v1.pdf">CIDEr: Consensus-based Image Description Evaluation</a> <br/>
@@ -14,6 +15,13 @@ title: Publications
 	</li>
 </ol>
 
+<h2>ArXiv</h2>
+<ol>
+	<li>
+	 <b> Xinlei Chen, Hao Fang, Tsung-Yi Lin, Ramakrishna Vedantam, Saurabh Gupta, Piotr Dollar, C. Lawrence Zitnick </b> <br/>
+	 <a href="http://arxiv.org/abs/1504.00325">Microsoft COCO Captions: Data Collection and Evaluation Server</a><br/>
+	</li>
+</ol>
 <hr/>
 <h2>Other Projects</h2>
 <ul>
