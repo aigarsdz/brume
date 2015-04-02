@@ -4,6 +4,7 @@ title: Home
 ---
 <h3>News</h3>
 <ul>
+	<li> Serving as reviewer for [ICCV 2015](http://pamitc.org/iccv15/) </li>
  	<li> Paper on "CIDEr: Consensus-Based Image Description Evaluation" accepted to CVPR, 2015. Checkout our <a href="https://github.com/ramakrishnavedantam928/cider-matlab">code</a> and <a href="http://ramakrishnavedantam928.github.io/cider-matlab/">project page</a></li>
 	<li> Paper on "Adopting Abstract Images for Semantic Scene Understanding" accepted to IEEE TPAMI</li>
 	<li> I am serving on the Program Committee for <a href='http://mile.ee.iisc.ernet.in/ICVGIP2014/'> ICVGIP 2014</a></li>
