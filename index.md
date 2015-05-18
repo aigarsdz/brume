@@ -12,9 +12,9 @@ title: Home
 	<li> I attended the <a href='http://svg.dmi.unict.it/icvss2014/'>International Computer Vision Summer School</a> (ICVSS), 2014</li>
 </ul>
 <hr/>
-Hi ! I am a masters student at Virginia Tech working under the guidance of <a href='http://filebox.ece.vt.edu/~parikh'>Prof. Devi Parikh</a> at the <a href='https://filebox.ece.vt.edu/~parikh/CVL.html'>Computer Vision Lab</a> (CVL). I am primarily interested in Computer Vision and Machine Learning.
+Hi ! I am pursuing my Ph.D. at Virginia Tech working under the guidance of <a href='http://filebox.ece.vt.edu/~parikh'>Prof. Devi Parikh</a> at the <a href='https://filebox.ece.vt.edu/~parikh/CVL.html'>Computer Vision Lab</a> (CVL). I am primarily interested in Computer Vision and Machine Learning.
 
-My recent work focuses on Scene Understanding problems like Semantic Image Understanding and Face Detection. I work closely with <a href='http://research.microsoft.com/en-us/people/larryz/'>Dr. Larry Zitnick</a>, <a href='http://cvn.ecp.fr/personnel/iasonas/'> Prof. Iasonas Kokkinos</a> and<a href='https://filebox.ece.vt.edu/~dbatra/'> Prof. Dhruv Batra</a>. 
+My recent focus is on understanding the link between vision and language. Can visual cues help us perform tasks in language better, and vice versa? I work closely with <a href='http://research.microsoft.com/en-us/people/larryz/'>Dr. Larry Zitnick</a> from Microsoft Research on various problems.
 
 Previously I finished my undergrad in ECE at IIIT-Hyderabad where I worked with <a href='http://www.iiit.ac.in/people/faculty/mkrishna'>Prof. K. Madhava Krishna</a> on 3D reconstruction. <a href='https://sites.google.com/site/ramakrishnavedantam928/'>Here</a> is a link to my old website.
 <hr/>
