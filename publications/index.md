@@ -7,7 +7,7 @@ title: Publications
 	<li> <b> Ramakrishna Vedantam, C. Lawrence Zitnick, Devi Parikh</b> <br/>
 		<a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf">CIDEr: Consensus-based Image Description Evaluation</a> <br/>
 		IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015 <br/>
-		<a href="http://ramakrishnavedantam928.github.io/cider-matlab/">[Project Page]</a> <a href="https://github.com/ramakrishnavedantam928/cider-matlab">[Code]</a><br/>
+		<a href="http://ramakrishnavedantam928.github.io/pyCider/">[Project Page]</a> <a href="https://github.com/ramakrishnavedantam928/pyCider">[Code]</a><a href="http://arxiv.org/abs/1411.5726">[arXiv]</a><br/>
 	</li>
 	<li> <b> C. Lawrence Zitnick, Ramakrishna Vedantam, Devi Parikh</b> <br/>
 		<a href="https://filebox.ece.vt.edu/~parikh/Publications/ZitnickVedantamParikh_clipart_PAMI2015.pdf">Adopting Abstract Images for Semantic Scene Understanding</a> <br/>
