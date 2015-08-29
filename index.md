@@ -4,8 +4,9 @@ title: Home
 ---
 <h3>News</h3>
 <ul>
+	<li> Paper on "Learning Common Sense through Visual Abstraction" accepted for publication in ICCV, 2015! 
+	<li> Serving as reviewer for <a href="http://pamitc.org/iccv15/">CVPR 2016</a></li>
 	<li> Checkout our <a href="http://arxiv.org/abs/1504.00325"> ArXiv paper</a> on creating the <a href="http://mscoco.org/dataset/#captions">MSCOCO Caption Evaluation Server</a>
-	<li> Serving as reviewer for <a href="http://pamitc.org/iccv15/">ICCV 2015</a></li>
  	<li> Paper on "CIDEr: Consensus-Based Image Description Evaluation" accepted for publication in CVPR, 2015. Checkout our <a href="https://github.com/ramakrishnavedantam928/cider">code</a> and <a href="http://ramakrishnavedantam928.github.io/cider/">project page</a></li>
 	<li> Paper on "Adopting Abstract Images for Semantic Scene Understanding" accepted to IEEE TPAMI</li>
 	<li> I interned at the <a href='http://cvn.ecp.fr/'>Center for Visual Computing</a> at Ecole Centrale de Paris/INRIA-Saclay in Summer, 2014 with Prof. Iasonas Kokkinos</li>

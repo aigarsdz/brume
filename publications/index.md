@@ -4,6 +4,10 @@ title: Publications
 ---
 
 <ol>
+	<li> <b> Ramakrishna Vedantam, Xiao Lin, Tanmay Batra, C. Lawrence Zitnick, Devi Parikh</b> <br/>
+		Learning Common Sense through Visual Abstraction <br/>
+		IEEE International Conference on Computer Vision (ICCV), 2015 <br/>
+	</li>
 	<li> <b> Ramakrishna Vedantam, C. Lawrence Zitnick, Devi Parikh</b> <br/>
 		<a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf">CIDEr: Consensus-based Image Description Evaluation</a> <br/>
 		IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015 <br/>
