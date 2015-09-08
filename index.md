@@ -4,8 +4,8 @@ title: Home
 ---
 <h3>News</h3>
 <ul>
-	<li> Paper on "Learning Common Sense through Visual Abstraction" accepted for publication in ICCV, 2015! 
-	<li> Serving as reviewer for <a href="http://pamitc.org/iccv15/">CVPR 2016</a></li>
+	<li> Paper on "Learning Common Sense Through Visual Abstraction" accepted for publication in ICCV, 2015! 
+	<li> Serving as reviewer for <a href="http://pamitc.org/cvpr16/">CVPR 2016</a></li>
 	<li> Checkout our <a href="http://arxiv.org/abs/1504.00325"> ArXiv paper</a> on creating the <a href="http://mscoco.org/dataset/#captions">MSCOCO Caption Evaluation Server</a>
  	<li> Paper on "CIDEr: Consensus-Based Image Description Evaluation" accepted for publication in CVPR, 2015. Checkout our <a href="https://github.com/ramakrishnavedantam928/cider">code</a> and <a href="http://ramakrishnavedantam928.github.io/cider/">project page</a></li>
 	<li> Paper on "Adopting Abstract Images for Semantic Scene Understanding" accepted to IEEE TPAMI</li>
@@ -13,11 +13,11 @@ title: Home
 	<li> I attended the <a href='http://svg.dmi.unict.it/icvss2014/'>International Computer Vision Summer School</a> (ICVSS), 2014</li>
 </ul>
 <hr/>
-Hi ! I am pursuing my Ph.D. at Virginia Tech working under the guidance of <a href='http://filebox.ece.vt.edu/~parikh'>Prof. Devi Parikh</a> at the <a href='https://filebox.ece.vt.edu/~parikh/CVL.html'>Computer Vision Lab</a> (CVL). I am primarily interested in Computer Vision and Machine Learning.
+Hi ! I am a third year Ph.D. student at Virginia Tech working under the guidance of <a href='http://filebox.ece.vt.edu/~parikh'>Prof. Devi Parikh</a> at the <a href='https://filebox.ece.vt.edu/~parikh/CVL.html'>Computer Vision Lab</a> (CVL). I am interested in Computer Vision and Machine Learning.
 
-My recent focus is on understanding the link between vision and language. Can visual cues help us perform tasks in language better, and vice versa? I work closely with <a href='http://research.microsoft.com/en-us/people/larryz/'>Dr. Larry Zitnick</a> from Microsoft Research on various problems.
+My current focus is on understanding the link between vision, language and common sense. My recent interest is in Recurrent Neural Nets and sequential data processing. In exploring these frontiers, I also work closely with <a href='http://research.microsoft.com/en-us/people/larryz/'>Dr. Larry Zitnick</a> from Microsoft Research on various problems.
 
-Previously I finished my undergrad in ECE at IIIT-Hyderabad where I worked with <a href='http://www.iiit.ac.in/people/faculty/mkrishna'>Prof. K. Madhava Krishna</a> on 3D reconstruction. <a href='https://sites.google.com/site/ramakrishnavedantam928/'>Here</a> is a link to my old website.
+Previously I finished my undergrad in ECE at IIIT-Hyderabad where I worked with <a href='http://www.iiit.ac.in/people/faculty/mkrishna'>Prof. K. Madhava Krishna</a>. <a href='https://sites.google.com/site/ramakrishnavedantam928/'>Here</a> is a link to my old website.
 <hr/>
 <div align="center"><b>I have spent several months at</b></div>
 <div align="center">
@@ -28,6 +28,3 @@ Previously I finished my undergrad in ECE at IIIT-Hyderabad where I worked with 
 </div>
 <hr/>
 If you like this layout/page, see <a href='demo-post'> this</a> to build your own using github+jekyll 
-
-
-
