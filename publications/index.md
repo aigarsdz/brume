@@ -7,7 +7,7 @@ title: Publications
 	<li> <b> Ramakrishna Vedantam<sup>*</sup>, Xiao Lin<sup>*</sup>, Tanmay Batra, C. Lawrence Zitnick, Devi Parikh</b> <br/>
 		<a href="https://vision.ece.vt.edu/cs/rvxtld_cs_2015.pdf">Learning Common Sense Through Visual Abstraction</a> <br/>
 		IEEE International Conference on Computer Vision (ICCV), 2015 <br/>
-		<a href="https://vision.ece.vt.edu/cs/rvxtld_cs_2015.pdf">[Project page]</a> [Code] [arXiv] <br/>
+		<a href="https://vision.ece.vt.edu/cs">[Project page]</a> [Code] [arXiv] <br/>
 		<sup>*</sup> Equal Contribution <br/>
 	</li>
 	<li> <b> Ramakrishna Vedantam, C. Lawrence Zitnick, Devi Parikh</b> <br/>
