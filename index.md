@@ -4,7 +4,8 @@ title: Home
 ---
 <h3>News</h3>
 <ul>
-	<li> Paper on "Learning Common Sense Through Visual Abstraction" accepted for publication in ICCV, 2015! 
+	<li> Checkout our <a href="http://arxiv.org/pdf/1511.07067v1.pdf">ArXiv paper</a> on ``Learning Visually Grounded Word Embeddings''
+	<li> Paper on "Learning Common Sense Through Visual Abstraction" accepted for publication in ICCV, 2015!
 	<li> Serving as reviewer for <a href="http://pamitc.org/cvpr16/">CVPR 2016</a></li>
 	<li> Checkout our <a href="http://arxiv.org/abs/1504.00325"> ArXiv paper</a> on creating the <a href="http://mscoco.org/dataset/#captions">MSCOCO Caption Evaluation Server</a>
  	<li> Paper on "CIDEr: Consensus-Based Image Description Evaluation" accepted for publication in CVPR, 2015. Checkout our <a href="https://github.com/ramakrishnavedantam928/cider">code</a> and <a href="http://ramakrishnavedantam928.github.io/cider/">project page</a></li>
