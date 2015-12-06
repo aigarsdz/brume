@@ -23,13 +23,14 @@ title: Publications
 
 <h2>ArXiv</h2>
 <ol>
-	<li>
-	 <b> Xinlei Chen, Hao Fang, Tsung-Yi Lin, Ramakrishna Vedantam, Saurabh Gupta, Piotr Dollar, C. Lawrence Zitnick </b> <br/>
-	 <a href="http://arxiv.org/abs/1504.00325">Microsoft COCO Captions: Data Collection and Evaluation Server</a><br/>
-	</li>
-	<li>
+	<li> Nov, 2015 <br/>
 	 <b> Satwik Kottur, Ramakrishna Vedantam, Jose´ Moura, Devi Parikh</b> <br/>
 	 <a href="http://arxiv.org/pdf/1511.07067v1.pdf">Visual Word2Vec (vis-w2v): Learning Visually Grounded Word Embeddings Using Abstract Scenes</a><br/>
+	</li>
+	
+	<li> April, 2015 <br/>
+	 <b> Xinlei Chen, Hao Fang, Tsung-Yi Lin, Ramakrishna Vedantam, Saurabh Gupta, Piotr Dollar, C. Lawrence Zitnick </b> <br/>
+	 <a href="http://arxiv.org/abs/1504.00325">Microsoft COCO Captions: Data Collection and Evaluation Server</a><br/>
 	</li>
 </ol>
 <hr/>
