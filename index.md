@@ -5,7 +5,7 @@ title: Home
 
 <h3>Code</h3>
 <ul>
-<li> MSCOCO Caption Evaluation [code](https://github.com/tylin/coco-caption)</li>
+<li> MSCOCO Caption Evaluation (code)[https://github.com/tylin/coco-caption]</li>
 <li> [Codes](https://github.com/ramakrishnavedantam928/coco-caption) from MSCOCO Caption Evaluation for metrics (BLEU, ROUGE, CIDEr-D and METEOR), independent of the COCO annotations </li>
 </ul>	
 
