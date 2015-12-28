@@ -2,6 +2,14 @@
 layout: home
 title: Home
 ---
+
+<h3>Code</h3>
+<ul>
+<li> MSCOCO Caption Evaluation [code](https://github.com/tylin/coco-caption)</li>
+<li> [Codes](https://github.com/ramakrishnavedantam928/coco-caption) from MSCOCO Caption Evaluation for metrics (BLEU, ROUGE, CIDEr-D and METEOR), independent of the COCO annotations </li>
+</ul>	
+
+
 <h3>News</h3>
 <ul>
 	<li> Checkout our <a href="http://arxiv.org/pdf/1511.07067v1.pdf">ArXiv paper</a> on "Learning Visually Grounded Word Embeddings"
