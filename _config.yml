@@ -1,9 +1,9 @@
 markdown: redcarpet
-highlighter: null
+highlighter: pygments
 permalink: /:title
 
-url:
-baseurl:
+url: http://ramakrishnavedantam928.github.io
+baseurl: 
 
 redcarpet:
   extensions: [strikethrough, tables]
@@ -11,3 +11,4 @@ redcarpet:
 sass:
   sass_dir: public/css
   style: :compressed
+

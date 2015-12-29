@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    {% include head.html %}
+	  {% include head.html %}
   </head>
   <body>
-    <div class="container azul">
+    <div class="container ruby">
       <header class="top row gutters{% if page.title == "Home" %} fadeInLeft animated{% endif %}">
         <div class="col span_2 center">
           <!-- TODO: add baseurl to the logo link -->
-          <a href="{{ site.url }}" id="logo" title="{{ site.data.brume.name }}"
-             style="background-image: url({{site.baseurl}}/public/images/logo.png);"></a>
+          <a href="{{ site.url }}/" id="logo" title="{{ site.data.brume.name }}"
+             style="background-image: url({{site.baseurl}}/public/images/rama.png);"></a>
         </div>
         {% include navigation.html %}
       </header>
