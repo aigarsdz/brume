@@ -12,6 +12,7 @@ title: Home
 
 <h3>News</h3>
 <ul>
+	<li> I will be interning at Google, with the Machine Perception team next summer !
 	<li> Checkout our <a href="http://arxiv.org/pdf/1511.07067v1.pdf">ArXiv paper</a> on "Learning Visually Grounded Word Embeddings"
 	<li> Paper on "Learning Common Sense Through Visual Abstraction" accepted for publication in ICCV, 2015
 	<li> Serving as reviewer for <a href="http://pamitc.org/cvpr16/">CVPR 2016</a></li>
