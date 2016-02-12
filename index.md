@@ -12,7 +12,7 @@ title: Home
 
 <h3>News</h3>
 <ul>
-	<li> I will be interning at Google, with the Machine Perception team next summer !
+	<li> I will be interning with the Machine Perception team at Google next summer!
 	<li> Checkout our <a href="http://arxiv.org/pdf/1511.07067v1.pdf">ArXiv paper</a> on "Learning Visually Grounded Word Embeddings"
 	<li> Paper on "Learning Common Sense Through Visual Abstraction" accepted for publication in ICCV, 2015
 	<li> Serving as reviewer for <a href="http://pamitc.org/cvpr16/">CVPR 2016</a></li>
@@ -23,9 +23,9 @@ title: Home
 	<li> I attended the <a href='http://svg.dmi.unict.it/icvss2014/'>International Computer Vision Summer School</a> (ICVSS), 2014</li>
 </ul>
 <hr/>
-Hi ! I am a third year Ph.D. student at Virginia Tech working under the guidance of <a href='http://filebox.ece.vt.edu/~parikh'>Devi Parikh</a> at the <a href='https://filebox.ece.vt.edu/~parikh/CVL.html'>Computer Vision Lab</a> (CVL). I am interested in Computer Vision and Machine Learning.
+Hi! I am a third year Ph.D. student at Virginia Tech working under the guidance of <a href='http://filebox.ece.vt.edu/~parikh'>Devi Parikh</a> at the <a href='https://filebox.ece.vt.edu/~parikh/CVL.html'>Computer Vision Lab</a> (CVL). I also work closely with <a href="http://www.larryzitnick.org">Larry Zitnick</a> from Facebook AI Research on various problems. I am primarily interested in Deep Learning/Machine Learning and Computer Vision. 
 
-My current focus is on understanding the link between vision, language and common sense. My recent interest is in Recurrent Neural Nets and sequential data processing. In exploring these frontiers, I also work closely with <a href='http://research.microsoft.com/en-us/people/larryz/'>Larry Zitnick</a> from Microsoft Research on various problems.
+I research about topics in language and vision, common sense reasoning, and (recently) unsupervised representation learning and generative models. 
 
 Previously I finished my undergrad in ECE at IIIT-Hyderabad where I worked with <a href='http://www.iiit.ac.in/people/faculty/mkrishna'>K. Madhava Krishna</a>. <a href='https://sites.google.com/site/ramakrishnavedantam928/'>Here</a> is a link to my old website.
 <hr/>
