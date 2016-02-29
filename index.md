@@ -12,6 +12,7 @@ title: Home
 
 <h3>News</h3>
 <ul>
+	<li> Paper on "Visual Word2Vec (vis-w2v): Learning Visually Grounded Word Embeddings using Abstract Scenes" accepted for publication in CVPR, 2016
 	<li> I will be interning with the Machine Perception team at Google next summer!
 	<li> Checkout our <a href="http://arxiv.org/pdf/1511.07067v1.pdf">ArXiv paper</a> on "Learning Visually Grounded Word Embeddings"
 	<li> Paper on "Learning Common Sense Through Visual Abstraction" accepted for publication in ICCV, 2015

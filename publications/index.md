@@ -4,6 +4,11 @@ title: Publications
 ---
 
 <ol>
+	<li> 
+	 <b> Satwik Kottur, Ramakrishna Vedantam, Jose´ Moura, Devi Parikh</b> <br/>
+	 <a href="http://arxiv.org/pdf/1511.07067v1.pdf">Visual Word2Vec (vis-w2v): Learning Visually Grounded Word Embeddings Using Abstract Scenes</a><br/>
+	  IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016 <br/>
+	</li>
 	<li> <b> Ramakrishna Vedantam<sup>*</sup>, Xiao Lin<sup>*</sup>, Tanmay Batra, C. Lawrence Zitnick, Devi Parikh</b> <br/>
 		<a href="https://vision.ece.vt.edu/cs/rvxtld_cs_2015.pdf">Learning Common Sense Through Visual Abstraction</a> <br/>
 		IEEE International Conference on Computer Vision (ICCV), 2015 <br/>
@@ -23,11 +28,6 @@ title: Publications
 
 <h2>ArXiv</h2>
 <ol>
-	<li> 
-	 <b> Satwik Kottur, Ramakrishna Vedantam, Jose´ Moura, Devi Parikh</b> <br/>
-	 <a href="http://arxiv.org/pdf/1511.07067v1.pdf">Visual Word2Vec (vis-w2v): Learning Visually Grounded Word Embeddings Using Abstract Scenes</a><br/>
-	  [November, 2015]
-	</li>
 	
 	<li> 
 	 <b> Xinlei Chen, Hao Fang, Tsung-Yi Lin, Ramakrishna Vedantam, Saurabh Gupta, Piotr Dollar, C. Lawrence Zitnick </b> <br/>
