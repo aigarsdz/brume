@@ -5,7 +5,7 @@ title: Publications
 
 <ol>
 	<li> 
-	 <b> Satwik Kottur, Ramakrishna Vedantam, Jose´ Moura, Devi Parikh</b> <br/>
+	 <b> Satwik Kottur<sup>*</sup>, Ramakrishna Vedantam<sup>*</sup>, Jose´ Moura, Devi Parikh</b> <br/>
 	 <a href="http://arxiv.org/pdf/1511.07067v1.pdf">Visual Word2Vec (vis-w2v): Learning Visually Grounded Word Embeddings Using Abstract Scenes</a><br/>
 	  IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016 <br/>
 	</li>
@@ -13,7 +13,6 @@ title: Publications
 		<a href="https://vision.ece.vt.edu/cs/rvxtld_cs_2015.pdf">Learning Common Sense Through Visual Abstraction</a> <br/>
 		IEEE International Conference on Computer Vision (ICCV), 2015 <br/>
 		<a href="https://vision.ece.vt.edu/cs">[Project page]</a> [Code] [arXiv] <br/>
-		<sup>*</sup> Equal Contribution <br/>
 	</li>
 	<li> <b> Ramakrishna Vedantam, C. Lawrence Zitnick, Devi Parikh</b> <br/>
 		<a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf">CIDEr: Consensus-based Image Description Evaluation</a> <br/>
@@ -25,6 +24,7 @@ title: Publications
 		IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2015 
 	</li>
 </ol>
+<sup>*</sup> Equal Contribution <br/>
 
 <h2>ArXiv</h2>
 <ol>
