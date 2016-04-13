@@ -28,13 +28,20 @@ title: Publications
 
 <h2>ArXiv</h2>
 <ol>
-	
+	<li>
+	<b> Prithvijit Chattopadhyay<sup>*</sup>, Ramakrishna Vedantam<sup>*</sup>, Ramprasaath RS, Dhruv Batra, Devi Parikh</b><br/>
+	<a href="http://arxiv.org/abs/1604.03505">Counting Everyday Objects in Everyday Scenes</a><br/>
+	  [April, 2016]
+	</li>
 	<li> 
 	 <b> Xinlei Chen, Hao Fang, Tsung-Yi Lin, Ramakrishna Vedantam, Saurabh Gupta, Piotr Dollar, C. Lawrence Zitnick </b> <br/>
 	 <a href="http://arxiv.org/abs/1504.00325">Microsoft COCO Captions: Data Collection and Evaluation Server</a><br/>
 	  [April, 2015]
 	</li>
 </ol>
+
+<sup>*</sup> Equal Contribution <br/>
+
 <hr/>
 <h2>Other Projects</h2>
 <ul>
