@@ -1,3 +1,7 @@
+title: Brume
+author: Aigars Dzerviniks
+description: It's simple. It's easy to use. It's a Jekyll theme.
+
 markdown: redcarpet
 highlighter: null
 permalink: /:title
