@@ -7,7 +7,7 @@ title: Publications
 	</li>
 	<li> <b> C. Lawrence Zitnick, Ramakrishna Vedantam, Devi Parikh</b> <br/>
 		<a href="https://filebox.ece.vt.edu/~parikh/Publications/ZitnickVedantamParikh_clipart_PAMI2015.pdf">Adopting Abstract Images for Semantic Scene Understanding</a> <br/>
-		Special Issue on the best papers at the 2013 IEEE Conference on Computer Vision and Pattern Recognition (CVPR))<br/>
+		Special Issue on the best papers at the 2013 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)<br/>
 		IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2016 
 	</li>
 	<li> 
