@@ -4,6 +4,12 @@ title: Publications
 ---
 
 <ol>
+	</li>
+	<li> <b> C. Lawrence Zitnick, Ramakrishna Vedantam, Devi Parikh</b> <br/>
+		<a href="https://filebox.ece.vt.edu/~parikh/Publications/ZitnickVedantamParikh_clipart_PAMI2015.pdf">Adopting Abstract Images for Semantic Scene Understanding</a> <br/>
+		Special Issue on the best papers at the 2013 IEEE Conference on Computer Vision and Pattern Recognition (CVPR))<br/>
+		IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2016 
+	</li>
 	<li> 
 	 <b> Satwik Kottur<sup>*</sup>, Ramakrishna Vedantam<sup>*</sup>, Jose´ Moura, Devi Parikh</b> <br/>
 	 <a href="http://arxiv.org/pdf/1511.07067v1.pdf">Visual Word2Vec (vis-w2v): Learning Visually Grounded Word Embeddings Using Abstract Scenes</a><br/>
@@ -18,11 +24,6 @@ title: Publications
 		<a href="http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Vedantam_CIDEr_Consensus-Based_Image_2015_CVPR_paper.pdf">CIDEr: Consensus-based Image Description Evaluation</a> <br/>
 		IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2015 <br/>
 		<a href="http://ramakrishnavedantam928.github.io/cider/">[Project Page]</a> <a href="https://github.com/ramakrishnavedantam928/cider">[Code]</a><a href="http://arxiv.org/abs/1411.5726">[arXiv]</a><br/>
-	</li>
-	<li> <b> C. Lawrence Zitnick, Ramakrishna Vedantam, Devi Parikh</b> <br/>
-		<a href="https://filebox.ece.vt.edu/~parikh/Publications/ZitnickVedantamParikh_clipart_PAMI2015.pdf">Adopting Abstract Images for Semantic Scene Understanding</a> <br/>
-		IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2015 
-	</li>
 </ol>
 <sup>*</sup> Equal Contribution <br/>
 
