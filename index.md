@@ -20,7 +20,7 @@ title: Home
 	<li> Checkout our <a href="http://arxiv.org/abs/1504.00325"> ArXiv paper</a> on creating the <a href="http://mscoco.org/dataset/#captions">MSCOCO Caption Evaluation Server</a>
  	<li> Paper on "CIDEr: Consensus-Based Image Description Evaluation" accepted for publication in CVPR, 2015. Checkout our <a href="https://github.com/ramakrishnavedantam928/cider">code</a> and <a href="http://ramakrishnavedantam928.github.io/cider/">project page</a></li>
 	<li> Paper on "Adopting Abstract Images for Semantic Scene Understanding" accepted to IEEE TPAMI</li>
-	<li> I interned at the <a href='http://cvn.ecp.fr/'>Center for Visual Computing</a> at Ecole Centrale de Paris/INRIA-Saclay in Summer, 2014 with Iasonas Kokkinos</li>
+	<li> I interned at the <a href='http://cvn.ecp.fr/'>Center for Visual Computing</a> at Ecole Centrale de Paris/INRIA-Saclay in Summer, 2014 with <a href="http://cvn.ecp.fr/personnel/iasonas/">Iasonas Kokkinos</a></li>
 	<li> I attended the <a href='http://svg.dmi.unict.it/icvss2014/'>International Computer Vision Summer School</a> (ICVSS), 2014</li>
 </ul>
 <hr/>
