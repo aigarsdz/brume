@@ -13,7 +13,7 @@ title: Home
 <h3>News</h3>
 <ul>
 	<li> Paper on "Visual Word2Vec (vis-w2v): Learning Visually Grounded Word Embeddings using Abstract Scenes" accepted for publication in CVPR, 2016
-	<li> I will be interning with the Machine Perception team at Google next summer!
+	<li> I will be interning with the <a href="http://research.google.com/pubs/MachinePerception.html">Machine Perception</a> team at Google next summer, with <a href="http://ai.stanford.edu/~gal/">Gal Chechik</a> and <a href="http://bengio.abracadoudou.com/">Samy Bengio</a>!
 	<li> Checkout our <a href="http://arxiv.org/pdf/1511.07067v1.pdf">ArXiv paper</a> on "Learning Visually Grounded Word Embeddings"
 	<li> Paper on "Learning Common Sense Through Visual Abstraction" accepted for publication in ICCV, 2015
 	<li> Serving as reviewer for <a href="http://pamitc.org/cvpr16/">CVPR 2016</a></li>
