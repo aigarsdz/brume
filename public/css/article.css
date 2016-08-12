@@ -1,0 +1,23 @@
+body {
+	background-color:white;
+}
+
+.read {
+	font-family: "museo-sans-1", "museo-sans-2", Helvetica, sans-serif;
+	color:rgb(50,50,51);
+	vertical-align:baseline;
+	line-height:24px;
+	font-size:100%;
+	margin-top:16px;
+	margin-bottom:16px;
+	-webkit-font-smoothing: auto;
+}
+
+.read h1,h2,h3,h4,h5,h6 {
+	font-family: museo-slab-1, museo-slab-2, Helvetica, sans-serif;
+}
+
+.read p {
+	margin-top:16px;
+	margin-bottom:16px;
+}
