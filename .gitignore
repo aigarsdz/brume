@@ -7,3 +7,4 @@ img/Thumbs.db
 node_modules
 .sass-cache
 .ruby-version
+Gemfile.lock
