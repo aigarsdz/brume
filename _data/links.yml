@@ -1,5 +1,14 @@
-- url: /
+- url: /brume/
   title: Home
 
 - url: /brume/about
   title: About
+
+- url: /brume/publicacoes-recentes
+  title: Publicações Recentes
+  
+- url: /brume/projetos-historico
+  title: Histórico de Projetos
+  
+- url: /brume/projetos-atuais
+  title: Projetos Atuais
