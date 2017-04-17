@@ -7,7 +7,3 @@ permalink: /:title
 
 url:
 baseurl:
-
-sass:
-  sass_dir: public/css
-  style: :compressed
