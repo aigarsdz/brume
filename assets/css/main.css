@@ -96,9 +96,9 @@ dd {
   width: 70%;
 }
 
-footer {
-  font-size: .8rem;
-  text-align: center;
+.container {
+  max-width: 750px;
+  padding: 0 20px;
 }
 
 /*
@@ -138,6 +138,126 @@ footer {
   color: #568203;
 }
 
+/*
+================================================================================
+  Header
+
+  Including logo and navigation.
+================================================================================
+*/
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header > div {
+  -ms-flex-preferred-size: 110px;
+      flex-basis: 110px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+header > nav {
+  margin-bottom: 40px;
+  height: 110px;
+}
+
+header > nav a {
+  display: inline-block;
+  color: #333;
+  padding: 66px 20px 25px;
+  margin-right: 10px;
+  margin-top: -5px;
+  text-transform: uppercase;
+  border-radius: 0 0 5px 5px;
+  border-bottom: 1px solid #333;
+  -webkit-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+}
+
+header > nav a:hover,
+header > nav a.current {
+  color: #f5f5f5;
+  border-bottom: none;
+}
+
+header > nav a:hover {
+  background-color: #333;
+  transform: translateY(5px);
+}
+
+header > nav a.current {
+  background-color: #333;
+}
+
+/*
+================================================================================
+  Footer
+================================================================================
+*/
+footer {
+  font-size: .8rem;
+  text-align: center;
+}
+
+/*
+================================================================================
+  Home page main content (post list).
+================================================================================
+*/
+.archive {
+  margin-bottom: 100px;
+}
+
+.archive-item {
+  border-top: 1px solid #333;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.archive-item h2 {
+  margin-bottom: 0;
+  -ms-flex-preferred-size: 110px;
+      flex-basis: 110px;
+}
+
+.archive-item > div {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.archive-item article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.archive-item article a {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.post-date {
+  text-align: right;
+  -ms-flex-preferred-size: 110px;
+      flex-basis: 110px;
+}
+
 /*----------------------------------------------------------------------------*/
 
 .highlight {
@@ -152,58 +272,7 @@ footer {
   font-size: .7rem;
 }
 
-.container {
-  max-width: 750px;
-  padding: 0 20px;
-}
 
-.center {
-  text-align: center;
-}
-
-.right {
-  float: right;
-  margin: 0 0 20px 20px;
-}
-
-.left {
-  float: left;
-  margin: 0 20px 20px 0;
-}
-
-.top-navbar {
-  margin-bottom: 40px;
-  height: 110px;
-}
-
-.top-navbar a {
-  display: inline-block;
-  color: #333;
-  padding: 66px 20px 25px;
-  margin-right: 10px;
-  margin-top: -5px;
-  text-transform: uppercase;
-  border-radius: 0 0 5px 5px;
-  border-bottom: 1px solid #333;
-  transition: all ease-in-out .3s;
-}
-
-.top-navbar a:hover,
-.top-navbar a.current-page {
-  color: #f5f5f5;
-  border-bottom: none;
-}
-
-.top-navbar a:hover {
-  background-color: #333;
-  transform: translateY(5px);
-}
-
-.top-navbar a.current-page {
-  background-color: #333;
-}
-
-.archive,
 .single {
   margin-bottom: 100px;
 }
@@ -218,16 +287,6 @@ footer {
   font-size: .9rem;
 }
 
-.bundle {
-  border-top: 1px solid #333;
-  padding-top: 10px;
-  margin-bottom: 10px;
-}
-
-.post-date {
-  text-align: right;
-}
-
 .not-found {
   margin-top: 150px;
   text-align: center;
@@ -236,18 +295,6 @@ footer {
 
 .not-found h1 {
   font-size: 8rem;
-}
-
-dl,
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-
-dl,
-.clearfix:after {
-    clear: both;
 }
 
 /*============================================================================*/
