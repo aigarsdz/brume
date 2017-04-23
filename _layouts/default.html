@@ -28,11 +28,11 @@
     </main>
 
     <!-- scripts -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="{{site.baseurl}}/public/js/jquery.fitvids.js"></script>
+    <script src="{{ 'assets/js/fluidvids.min.js' | relative_url }}"></script>
     <script>
-      $(document).ready(function(){
-        $("article").fitVids();
+      fluidvids.init({
+        selector: ['iframe', 'object'],
+        players: ['www.youtube.com', 'player.vimeo.com']
       });
     </script>
   </body>
