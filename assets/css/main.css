@@ -85,20 +85,28 @@ th {
   padding: 5px 10px;
 }
 
+.container {
+  max-width: 750px;
+  padding: 0 20px;
+}
+
+dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
 dt {
-  float: left;
-  width: 30%;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
   font-weight: bold;
 }
 
 dd {
-  float: right;
-  width: 70%;
-}
-
-.container {
-  max-width: 750px;
-  padding: 0 20px;
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
 }
 
 /*
@@ -161,12 +169,21 @@ header > div {
           flex-grow: 0;
 }
 
-header > nav {
+#logo {
+  display: inline-block;
+  height: 110px;
+  width: 110px;
+  background-size: 90px 90px;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+header > nav#main-navigation {
   margin-bottom: 40px;
   height: 110px;
 }
 
-header > nav a {
+header > nav#main-navigation a {
   display: inline-block;
   color: #333;
   padding: 66px 20px 25px;
@@ -179,18 +196,18 @@ header > nav a {
   transition: all ease-in-out .3s;
 }
 
-header > nav a:hover,
-header > nav a.current {
+header > nav#main-navigation a:hover,
+header > nav#main-navigation a.current {
   color: #f5f5f5;
   border-bottom: none;
 }
 
-header > nav a:hover {
+header > nav#main-navigation a:hover {
   background-color: #333;
   transform: translateY(5px);
 }
 
-header > nav a.current {
+header > nav#main-navigation a.current {
   background-color: #333;
 }
 
@@ -258,8 +275,11 @@ footer {
       flex-basis: 110px;
 }
 
-/*----------------------------------------------------------------------------*/
-
+/*
+================================================================================
+  Code highlighting
+================================================================================
+*/
 .highlight {
   padding: 30px;
   border-radius: 6px;
@@ -272,7 +292,11 @@ footer {
   font-size: .7rem;
 }
 
-
+/*
+================================================================================
+  Single page styles
+================================================================================
+*/
 .single {
   margin-bottom: 100px;
 }
@@ -297,17 +321,11 @@ footer {
   font-size: 8rem;
 }
 
-/*============================================================================*/
-#logo {
-  display: inline-block;
-  height: 110px;
-  width: 110px;
-  background-size: 90px 90px;
-  background-position: left center;
-  background-repeat: no-repeat;
-}
-
-/*============================================================================*/
+/*
+================================================================================
+  Responsive styling
+================================================================================
+*/
 @media screen and (max-width: 767px) {
   .top-navbar {
     height: 35px;
