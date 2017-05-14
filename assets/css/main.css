@@ -214,6 +214,10 @@ header > nav#main-navigation a.current {
   background-color: #333;
 }
 
+nav#main-navigation a.trigger {
+  display: none;
+}
+
 /*
 ================================================================================
   Footer
@@ -246,6 +250,8 @@ footer {
   margin-bottom: 0;
   -ms-flex-preferred-size: 110px;
       flex-basis: 110px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 
 .archive-item > div {
@@ -261,6 +267,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-bottom: 10px;
 }
 
 .archive-item article a {
@@ -326,35 +333,39 @@ footer {
   Responsive styling
 ================================================================================
 */
-@media screen and (max-width: 767px) {
-  .top-navbar {
-    height: 35px;
-    text-align: center;
-    margin-top: 40px;
-  }
-
-  .top-navbar a {
-    padding: 5px 10px;
-    margin: 5px;
-    border-radius: 0;
-    border: 1px solid #333;
-    transition: none;
-  }
-
-  .top-navbar a:hover {
-    transform: none;
-  }
-
-  .bundle,
-  .post-date {
-    text-align: center;
-  }
-
-  .bundle article {
-    margin-bottom: 30px;
+@media screen and (max-width: 580px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 
   #logo {
-    background-position: center center;
+    background-position: center;
+  }
+
+  header > nav#main-navigation {
+    height: auto;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  header > nav#main-navigation a {
+    margin-top: 0;
+    padding: 8px 18px;
+    border-radius: 5px;
+    white-space: nowrap;
+    border-bottom: none;
+  }
+
+  .archive-item h2 {
+    -ms-flex-preferred-size: 80px;
+      flex-basis: 80px;
   }
 }
