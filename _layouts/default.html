@@ -12,7 +12,7 @@
       {% endif %}
         <div>
           <a href="{{ site.url }}" id="logo" title="{{ site.title }}"
-             style="background-image: url({{ 'assets/images/logo.png' | relative_url }});"></a>
+             style="background-image: url({{ '/assets/images/logo.png' | relative_url }});"></a>
         </div>
 
         {% include navigation.html %}
@@ -28,7 +28,7 @@
     </main>
 
     <!-- scripts -->
-    <script src="{{ 'assets/js/fluidvids.min.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/fluidvids.min.js' | relative_url }}"></script>
     <script>
       fluidvids.init({
         selector: ['iframe', 'object'],
