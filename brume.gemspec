@@ -4,9 +4,9 @@ Gem::Specification.new do |spec|
   spec.name          = "brume"
   spec.version       = "0.0.1"
   spec.authors       = ["Aigars Dzerviniks"]
-  spec.email         = ["aigarsdz@protonmail.com"]
+  spec.email         = ["dzerviniks.aigars@outlook.com"]
 
-  spec.summary       = %q{A simple Jekyll blog theme}
+  spec.summary       = %q{It's simple. It's easy to use. It's a Jekyll theme.}
   spec.homepage      = "https://github.com/aigarsdz/brume"
   spec.license       = "MIT"
 
