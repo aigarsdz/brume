@@ -19,12 +19,11 @@ but there are a couple of additional steps you have to take.
 
 1. All the links are defined in a file *_data/links.yml*, therefore you'll have to create a *_data*
 directory and put this file there in order for navigation to be displayed.
-2. Brume uses `home` layout for the home page (like the default Jekyll theme). All you have to do
-is create an *index.html* or *index.md* file with `layout: home` and a `title` that matches
+2. Brume uses `home` layout for the home page (like the default Jekyll theme). All you need to do
+is create an *index.html* or *index.md* file with `layout: home`. If you want the home page to be
+listed in the navigation you have to add `title` to it's front matter that matches
 the title you used for the home page link in the *links.yml* file. Titles are used to indicate
 the current page.
-3. Update your *_config.yml* file with `color_scheme` option, which value can be `azul`, `ruby`, `amber` or `avocado`,
-and is used for links. It is `avocado` by default.
 
 ## Theme customization
 
