@@ -12,7 +12,7 @@
       {% endif %}
         <div>
           <a href="{{ site.url }}" id="logo" title="{{ site.title }}"
-             style="background-image: url({{ '/assets/images/logo.png' | relative_url }});"></a>
+             style="background-image: url({{ 'assets/images/logo.png' | relative_url }});"></a>
         </div>
 
         {% include navigation.html %}
@@ -35,6 +35,5 @@
         players: ['www.youtube.com', 'player.vimeo.com']
       });
     </script>
-    <script src="{{ 'assets/js/main.js' | relative_url }}"></script>
   </body>
 </html>
