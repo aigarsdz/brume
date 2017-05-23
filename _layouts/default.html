@@ -4,7 +4,7 @@
     {% include head.html %}
   </head>
   <body>
-    <main class="container {{ site.color_scheme }}">
+    <main class="container {% if site.color_scheme %}{{ site.color_scheme }}{% else %}avocado{% endif %}">
       {% if page.title == "Home" %}
       <header class="fadeInLeft animated">
       {% else %}
