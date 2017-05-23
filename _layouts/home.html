@@ -1,0 +1,51 @@
+---
+layout: default
+title: Home
+---
+
+<section class="archive">
+{% for post in site.posts %}
+{% unless post.next %}
+
+  {% unless forloop.first %}
+    </div>
+  </div>
+  {% endunless %}
+
+  <div class="archive-item fadeInDown animated">
+    <h2>{{ post.date | date: '%Y' }}</h2>
+    <div>
+
+{% else %}
+
+{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+{% capture next_year %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+
+{% if year != next_year %}
+
+  {% unless forloop.first %}
+    </div>
+  </div>
+  {% endunless %}
+
+  <div class="archive-item fadeInDown animated">
+    <h2>{{ post.date | date: '%Y' }}</h2>
+    <div>
+
+{% endif %}
+{% endunless %}
+
+  <article>
+    <a href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title }}</a>
+    <div class="post-date">
+      <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%-d %B" }}</time>
+    </div>
+  </article>
+
+  {% if forloop.last %}
+    </div>
+  </div>
+  {% endif %}
+
+{% endfor %}
+</section>

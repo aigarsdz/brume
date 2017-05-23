@@ -1,8 +1,13 @@
-markdown: redcarpet
+title: Brume
+author: Aigars Dzerviniks
+description: It's simple. It's easy to use. It's a Jekyll theme.
+
+highlighter: null
 permalink: /:title
 
 url: http://aigarsdz.github.io
 baseurl: /brume
 
-redcarpet:
-  extensions: [strikethrough, tables]
+# Custom options:
+# color_scheme: azul|ruby|amber|avocado
+color_scheme: avocado

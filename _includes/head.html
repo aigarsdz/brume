@@ -1,23 +1,24 @@
 <!-- meta information -->
 <meta charset="utf-8">
 <meta name="description" {% if page.title == "Home" %}
-      content="{{ site.data.brume.description }}" {% else %}
+      content="{{ site.description }}" {% else %}
       content="{{ page.content | strip_html | strip_newlines | truncate: 120 }}" {% endif %}>
-<meta name="author" content="{{ site.data.brume.author }}">
+<meta name="author" content="{{ site.author }}">
 
 <!-- Enable responsiveness on mobile devices-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
 <!-- title -->
-<title>{{ page.title }} &middot; {{ site.data.brume.name }}</title>
+<title>{% if page.title %}{{ page.title }} &middot; {% endif %}{{ site.title }}</title>
 
 <!-- icons -->
-<link rel="shortcut icon" href="{{site.baseurl}}/public/images/favicon.ico" />
+<link rel="shortcut icon" href="{{ '/assets/images/favicon.ico' | relative_url }}">
 
 <!-- stylesheets -->
-<link rel="stylesheet" href="{{site.baseurl}}/public/css/responsive.gs.12col.css">
-<link rel="stylesheet" href="{{site.baseurl}}/public/css/animate.min.css">
-<link rel="stylesheet" href="{{site.baseurl}}/public/css/main.css">
+<link rel="stylesheet" href="{{ '/assets/css/responsive.gs.12col.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/animate.min.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/syntax.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
 <!-- Google fonts -->
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&subset=latin-ext">
@@ -28,4 +29,4 @@
 {% endif %}
 
 <!-- feed links -->
-<link rel="alternate" href="{{ site.url }}{{ site.baseurl }}/feed.xml" type="application/rss+xml" title="{{ site.name }}">
+<link rel="alternate" href="{{ 'feed.xml' | absolute_url }}" type="application/rss+xml" title="{{ site.title }}">

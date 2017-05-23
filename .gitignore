@@ -1,8 +1,7 @@
-_site
-.coffeehintrc
-.jshintrc
-img/Thumbs.db
-.DS_Store
-node_modules
+*.gem
+.bundle
 .sass-cache
-.ruby-version
+_site
+Gemfile.lock
+.DS_Store
+vendor

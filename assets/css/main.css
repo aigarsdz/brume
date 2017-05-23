@@ -1,0 +1,371 @@
+/*
+================================================================================
+  Global styles
+================================================================================
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  border-top: 5px solid #333;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl,
+blockquote,
+table,
+img,
+hr,
+.fluid-width-video-wrapper,
+.highlight {
+  margin-bottom: 20px;
+}
+
+blockquote {
+  padding: 0 30px;
+  border-left: 2px solid #C6C6C6;
+}
+
+
+ul, ol {
+  margin-left: 40px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border : 0;
+  height: 25px;
+  background : url(/assets/images/eagle.png) center center no-repeat;
+}
+
+code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: .8rem;
+}
+
+p code {
+  padding: 0px 5px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #333;
+}
+
+thead {
+  background-color: #C6C6C6;
+}
+
+td,
+th {
+  border: 1px solid #333;
+  padding: 5px 10px;
+}
+
+.container {
+  max-width: 750px;
+  padding: 0 20px;
+}
+
+dl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+dt {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  font-weight: bold;
+}
+
+dd {
+  -ms-flex-preferred-size: 70%;
+      flex-basis: 70%;
+}
+
+/*
+================================================================================
+  Colour styles
+================================================================================
+*/
+.azul a {
+  color: #0070bb;
+}
+
+.azul a:hover {
+  color: #0F9EFB;
+}
+
+.ruby a {
+  color: #e0115f;
+}
+
+.ruby a:hover {
+  color: #930036;
+}
+
+.amber a {
+  color: #ff7e00;
+}
+
+.amber a:hover {
+  color: #C66200;
+}
+
+.avocado a {
+  color: #568203;
+}
+
+.avocado a:hover {
+  color: #8FBE36;
+}
+
+/*
+================================================================================
+  Header
+
+  Including logo and navigation.
+================================================================================
+*/
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header > div {
+  -ms-flex-preferred-size: 110px;
+      flex-basis: 110px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+#logo {
+  display: inline-block;
+  height: 110px;
+  width: 110px;
+  background-size: 90px 90px;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+
+header > nav#main-navigation {
+  margin-bottom: 40px;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header > nav#main-navigation a {
+  display: inline-block;
+  color: #333;
+  padding: 66px 20px 25px;
+  margin-right: 10px;
+  margin-top: -5px;
+  text-transform: uppercase;
+  border-radius: 0 0 5px 5px;
+  border-bottom: 1px solid #333;
+  -webkit-transition: all ease-in-out .3s;
+  transition: all ease-in-out .3s;
+}
+
+header > nav#main-navigation a:hover,
+header > nav#main-navigation a.current {
+  color: #f5f5f5;
+  border-bottom: none;
+}
+
+header > nav#main-navigation a:hover {
+  background-color: #333;
+  transform: translateY(5px);
+}
+
+header > nav#main-navigation a.current {
+  background-color: #333;
+}
+
+nav#main-navigation a.trigger {
+  display: none;
+}
+
+/*
+================================================================================
+  Footer
+================================================================================
+*/
+footer {
+  font-size: .8rem;
+  text-align: center;
+}
+
+/*
+================================================================================
+  Home page main content (post list).
+================================================================================
+*/
+.archive {
+  margin-bottom: 100px;
+}
+
+.archive-item {
+  border-top: 1px solid #333;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.archive-item h2 {
+  margin-bottom: 0;
+  -ms-flex-preferred-size: 110px;
+      flex-basis: 110px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.archive-item > div {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.archive-item article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.archive-item article a {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.post-date {
+  text-align: right;
+  -ms-flex-preferred-size: 110px;
+      flex-basis: 110px;
+}
+
+/*
+================================================================================
+  Code highlighting
+================================================================================
+*/
+.highlight {
+  padding: 30px;
+  border-radius: 6px;
+  background-color: #272822;
+  color: #f8f8f2;
+  line-height: 1;
+}
+
+.highlight code {
+  font-size: .7rem;
+}
+
+/*
+================================================================================
+  Single page styles
+================================================================================
+*/
+.single {
+  margin-bottom: 100px;
+}
+
+.single {
+  font-size: 1.125rem;
+  line-height: 28px;
+}
+
+.single time {
+  color: #999;
+  font-size: .9rem;
+}
+
+.not-found {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.not-found h1 {
+  font-size: 8rem;
+}
+
+/*
+================================================================================
+  Responsive styling
+================================================================================
+*/
+@media screen and (max-width: 580px) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  #logo {
+    background-position: center;
+  }
+
+  header > nav#main-navigation {
+    height: auto;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+
+  header > nav#main-navigation a {
+    margin-top: 0;
+    padding: 8px 18px;
+    border-radius: 5px;
+    white-space: nowrap;
+    border-bottom: none;
+  }
+
+  .archive-item h2 {
+    -ms-flex-preferred-size: 80px;
+      flex-basis: 80px;
+  }
+}
