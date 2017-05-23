@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "brume"
-  spec.version       = "0.0.1"
+  spec.version       = "1.0.0"
   spec.authors       = ["Aigars Dzerviniks"]
   spec.email         = ["dzerviniks.aigars@outlook.com"]
 
