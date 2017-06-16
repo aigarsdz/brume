@@ -5,9 +5,9 @@ description: It's simple. It's easy to use. It's a Jekyll theme.
 highlighter: null
 permalink: /:title
 
-url: http://aigarsdz.github.io/brume
+url: http://aigarsdz.github.io
 baseurl: /brume
 
 # Custom options:
 # color_scheme: azul|ruby|amber|avocado
-color_scheme: avocado
+# color_scheme: avocado

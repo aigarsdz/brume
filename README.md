@@ -1,29 +1,29 @@
 # brume
 
-I am not a designer so I cannot impress you with breathtaking Jekyll themes, but brume is something that just came to my mind and I had to build it. It is a clean and simple theme, which has an index page that lists all your blog posts divided by year and an about page.
+I am not a designer so I cannot impress you with breathtaking Jekyll themes, but brume is something that just came to my mind and I had to build it. It is a clean and simple theme, which has an index page that lists all your blog posts divided by the year, a single post page and a layout for any additional pages you might need.
 
 This is how the "Home" page looks like.
 
-![Home](https://dl.dropboxusercontent.com/u/9924988/Screen%20Shot%202014-02-26%20at%2018.48.57.png)
+![Home](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/home.png)
 
 And this is a single post.
 
-![Home](https://dl.dropboxusercontent.com/u/9924988/Screen%20Shot%202014-04-06%20at%2012.56.08.png)
+![Post](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/post_1.png)
+
+![Post. More content examples.](https://raw.githubusercontent.com/aigarsdz/brume/master/screenshots/post_2.png)
 
 ## Usage
 
-**Important:** The latest version of brume uses `site.baseurl` for links, therefore, if you want to put your site in a subdirectory, update the *_config.yml* file!
+Brume can be installed just like any other Jekyll theme as described [here](https://jekyllrb.com/docs/themes/#installing-a-theme),
+but there are a couple of additional steps you have to take.
 
-- Download the ZIP file and extract it's contents.
-- Open *_config.yml* file and enter your site's URL and add additional configuration or update the existing one if needed.
-- Open *about/index.md* file and add information about you or your site. You can delete this file and directory if not needed.
-- Open *_data/links.yml* and add additional links or update the existing ones that you want to be displayed in the navigation menu.
-- If you don't want to use CC BY-NC 4.0 licence for the content, then you should change the footer text, which is located in *_layouts/default.html*.
-- Generate your site and be happy!
-
-### Jekyll < 2.0.0
-
-I try to keep brume up to date with the newest Jekyll version. Jekyll 2.0.0 introduced a lot of changes (like a built in Sass support) that are not backward compatible, therefore I have created a separate branch `legacy` for those, who might be using an older Jekyll version. All the changes that I introduce in `master` will be ported to `legacy`.
+1. All the links are defined in a file *_data/links.yml*, therefore you'll have to create a *_data*
+directory and put this file there in order for navigation to be displayed.
+2. Brume uses `home` layout for the home page (like the default Jekyll theme). All you need to do
+is create an *index.html* or *index.md* file with `layout: home`. If you want the home page to be
+listed in the navigation you have to add `title` to it's front matter that matches
+the title you used for the home page link in the *links.yml* file. Titles are used to indicate
+the current page.
 
 ## Theme customization
 
@@ -34,8 +34,7 @@ This theme has 4 predefined colors that can be used for links:
 - amber
 - avocado
 
-![Color Examples](https://dl.dropboxusercontent.com/u/9924988/colors_new.png)
-
-By default it uses *azure*, but if you want to select another one just change the second class of `container` div in *_layouts/default.html* to one of the provided names.
+By default it uses *avocado*, but if you want to select another one just change the `color_scheme` setting in
+*_config.yml* file.
 
 Express your thoughts about brume on Twitter [@aigarsdz](http://twitter.com/aigarsdz), and help me make it better!
