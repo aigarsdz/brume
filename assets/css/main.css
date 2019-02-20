@@ -6,6 +6,7 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -20,7 +21,16 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, dl,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
 blockquote,
 table,
 img,
@@ -32,11 +42,11 @@ hr,
 
 blockquote {
   padding: 0 30px;
-  border-left: 2px solid #C6C6C6;
+  border-left: 2px solid #c6c6c6;
 }
 
-
-ul, ol {
+ul,
+ol {
   margin-left: 40px;
 }
 
@@ -52,14 +62,14 @@ a {
 }
 
 hr {
-  border : 0;
+  border: 0;
   height: 25px;
-  background : url(/assets/images/eagle.png) center center no-repeat;
+  background: url(/assets/images/eagle.png) center center no-repeat;
 }
 
 code {
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-size: .8rem;
+  font-family: Consolas, 'Liberation Mono', Courier, monospace;
+  font-size: 0.8rem;
 }
 
 p code {
@@ -76,7 +86,7 @@ table {
 }
 
 thead {
-  background-color: #C6C6C6;
+  background-color: #c6c6c6;
 }
 
 td,
@@ -95,18 +105,18 @@ dl {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 dt {
   -ms-flex-preferred-size: 30%;
-      flex-basis: 30%;
+  flex-basis: 30%;
   font-weight: bold;
 }
 
 dd {
   -ms-flex-preferred-size: 70%;
-      flex-basis: 70%;
+  flex-basis: 70%;
 }
 
 /*
@@ -119,7 +129,7 @@ dd {
 }
 
 .azul a:hover {
-  color: #0F9EFB;
+  color: #0f9efb;
 }
 
 .ruby a {
@@ -135,7 +145,7 @@ dd {
 }
 
 .amber a:hover {
-  color: #C66200;
+  color: #c66200;
 }
 
 .avocado a {
@@ -143,7 +153,7 @@ dd {
 }
 
 .avocado a:hover {
-  color: #8FBE36;
+  color: #8fbe36;
 }
 
 /*
@@ -161,12 +171,12 @@ header {
 
 header > div {
   -ms-flex-preferred-size: 110px;
-      flex-basis: 110px;
+  flex-basis: 110px;
   -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
 }
 
 #logo {
@@ -195,8 +205,8 @@ header > nav#main-navigation a {
   text-transform: uppercase;
   border-radius: 0 0 5px 5px;
   border-bottom: 1px solid #333;
-  -webkit-transition: all ease-in-out .3s;
-  transition: all ease-in-out .3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.3s;
 }
 
 header > nav#main-navigation a:hover,
@@ -207,6 +217,7 @@ header > nav#main-navigation a.current {
 
 header > nav#main-navigation a:hover {
   background-color: #333;
+  -webkit-transform: translateY(5px);
   transform: translateY(5px);
 }
 
@@ -224,7 +235,7 @@ nav#main-navigation a.trigger {
 ================================================================================
 */
 footer {
-  font-size: .8rem;
+  font-size: 0.8rem;
   text-align: center;
 }
 
@@ -249,18 +260,18 @@ footer {
 .archive-item h2 {
   margin-bottom: 0;
   -ms-flex-preferred-size: 110px;
-      flex-basis: 110px;
+  flex-basis: 110px;
   -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .archive-item > div {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .archive-item article {
@@ -272,14 +283,14 @@ footer {
 
 .archive-item article a {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
 }
 
 .post-date {
   text-align: right;
   -ms-flex-preferred-size: 110px;
-      flex-basis: 110px;
+  flex-basis: 110px;
 }
 
 /*
@@ -296,7 +307,8 @@ footer {
 }
 
 .highlight code {
-  font-size: .7rem;
+  font-size: 0.7rem;
+  white-space: pre-wrap;
 }
 
 /*
@@ -315,7 +327,7 @@ footer {
 
 .single time {
   color: #999;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .not-found {
@@ -337,11 +349,11 @@ footer {
   header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   #logo {
@@ -366,6 +378,6 @@ footer {
 
   .archive-item h2 {
     -ms-flex-preferred-size: 80px;
-      flex-basis: 80px;
+    flex-basis: 80px;
   }
 }
